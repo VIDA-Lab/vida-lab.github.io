@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-04-24
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Congratulations to Xiaolin!🥳🥳🥳 PrettiSmart wins IEEE Symposium Pacific Visualization Journal Track Honorable Mention Award!
