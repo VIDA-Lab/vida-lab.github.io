@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 50 Nanyang Ave, Block N4, Singapore 639798
 
 # profile:
 #   align: right
@@ -27,8 +27,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Visual and Intelligent Data Analytics Lab (VIDA) Lab at Nanyang Technological University (NTU), Singapore, is dedicated to advancing the frontiers of visual analytics, data visualization, and human-centered AI.
+Situated within the College of Computing and Data Science (CCDS), VIDA Lab focuses on designing intelligent, interactive systems that empower users to make sense of complex data through visual and explainable means.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+VIDA lab is led by Dr. Yong Wang, a tenure-track Assistant Professor at CCDS, NTU. Prior to joining NTU, Dr. Yong Wang was an Assistant Professor at the Singapore Management University (SMU) and received his PhD from the Hong Kong University of Science and Technology (HKUST) under the supervision of Prof. Huamin Qu.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Research Areas
+Our research intersects multiple disciplines, including:
+
+- **Information Visualization:** Novel techniques for visual encoding and layout of complex data.
+- **Interactive Visual Analytics:** Human-in-the-loop systems that support sense-making, reasoning, and decision-making.
+- **Human-Computer Interaction:** Designing interfaces that are intuitive, responsive, and adaptive to user needs.
+- **Explainable Artificial Intelligence (XAI):** Visual and interaction-driven approaches to interpret AI models and predictions.
+
+We actively apply our research across domains such as online learning, FinTech, quantum computing, and smart manufacturing, with coverage by international media such as NHK, IEEE Spectrum, and the ACM SIGGRAPH Blog.
+
+### Join Us
+We are currently recruiting Ph.D./M.Eng. students, Research Assistants (RAs), and Visiting Interns who are passionate about visualization, AI, and human-computer interaction.
+Feel free to reach out via email if you're interested!
