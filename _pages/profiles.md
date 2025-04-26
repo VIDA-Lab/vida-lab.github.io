@@ -47,6 +47,51 @@ profiles:
     duration: XXX
     # content: about_member_test.md
 
+  - name: Songheng Zhang
+    status: current
+    role: Ph.D. Candidate
+    intro: Mobile Visualization, AI4Vis, Data Science, Data Analysis, Statistics
+    image: songheng_zhang.jpg
+    image_circular: false
+    website: https://alexanderzsh.github.io/
+    email: shzhang.2021@phdcs.smu.edu.sg
+    next: RICE Lab (Tony Tang), Singapore Management University (2024)
+    duration: 2021–2024
+
+  - name: Shaolun Ruan (阮劭伦)
+    status: current
+    role: Ph.D. Candidate
+    intro: Data Visualization, Human-Computer Interaction
+    image: shaolun_ruan.jpg
+    image_circular: false
+    website: https://shaolun-ruan.com/
+    email: shaolun.ruan@monash.edu
+    next: Research Scholar, Monash University, Australia (2025)
+    duration: 2022–2025
+
+  - name: Shiwei Chen
+    status: current # current or past
+    role: Master Student
+    intro: Visualization and Human-Computer Interaction
+    image: chenshiwei.jpg
+    image_circular: false # crops the image to make it circular
+    website: https://csw0109.github.io/
+    email: shiwei004@e.ntu.edu.sg
+    next: XXX
+    duration: XXX
+    # content: about_member_test.md
+
+  - name: Kavinda Athapaththu
+    status: current
+    role: Research Engineer
+    intro: Machine Learning, Visualization, Computer Vision, GIS, HCI
+    image: kavinda_athapaththu.jpg
+    image_circular: false
+    website: https://kavinda.lk/
+    email: # Email not provided in the source
+    next: # Add next position or status here if needed
+    duration: # Add duration of the position here if needed
+
   - name: Fengjie Wang
     status: current # current or past
     role: Research Assistant
@@ -55,18 +100,6 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: https://ff0820.github.io/
     email: ff11060820@gmail.com
-    next: XXX
-    duration: XXX
-    # content: about_member_test.md
-  
-  - name: Shiwei Chen
-    status: current # current or past
-    role: Master Student
-    intro: Visualization and Human-Computer Interaction
-    image: chenshiwei.png
-    image_circular: false # crops the image to make it circular
-    website: https://csw0109.github.io/
-    email: shiwei004@e.ntu.edu.sg
     next: XXX
     duration: XXX
     # content: about_member_test.md
@@ -95,15 +128,25 @@ profiles:
     duration: # Add duration of the position here if needed
 
   # past members
-  - name: Yong Wang
+  - name: Haotian Li
     status: past
     role: Visiting Student
-    intro: HCI, Vis
-    image: test.jpg
-    image_circular: false # crops the image to make it circular
-    website: https://yong-wang.org/index.html
-    email: yong-wang@ntu.edu.sg
-    next: ASU Ph.D. # where to job, study
-    duration: Jul - Sep 2023
-    # content: about_member_test.md
+    intro: Human-AI collaboration, human-computer interaction and artificial intelligence
+    image: haotian_li.jpg # Placeholder image filename
+    image_circular: false
+    website: https://haotian-li.com/
+    email: haotian.li@microsoft.com # Email not provided in the visible content
+    next: Microsoft Research Asia
+    duration: 2021.02-2021.09 # No duration details provided
+
+  - name: Yanna Lin
+    status: past
+    role: Visiting Student
+    intro: Data Visualization, Human-AI Collaboration, Interface Design
+    image: yanna_lin.jpg
+    image_circular: false
+    website: https://yannahhh.github.io/
+    email: ylindg@connect.ust.hk
+    next: Postdoc at HKUST
+    duration: 2022.05-2022.09
 ---
