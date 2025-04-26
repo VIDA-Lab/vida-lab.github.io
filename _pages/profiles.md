@@ -19,8 +19,8 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: https://yong-wang.org/index.html
     email: yong-wang@ntu.edu.sg
-    next: XXX
-    duration: XXX
+    duration: # time when staying at NTU
+    next: # work place
     # content: about_member_test.md
   
   - name: Can Liu
@@ -31,20 +31,8 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: http://liucan.me/
     email: can.liu.1996@gmail.com
+    duration: 2024.12 - now
     next: XXX
-    duration: XXX
-    # content: about_member_test.md
-
-  - name: Xiaolin Wen
-    status: current # current or past
-    role: PhD Student
-    intro: Visualization and Human-Computer Interaction
-    image: wenxiaolin.png
-    image_circular: false # crops the image to make it circular
-    website: https://wenxiaolin.com/
-    email: xiaolin004@e.ntu.edu.sg
-    next: XXX
-    duration: XXX
     # content: about_member_test.md
 
   - name: Songheng Zhang
@@ -55,10 +43,10 @@ profiles:
     image_circular: false
     website: https://alexanderzsh.github.io/
     email: shzhang.2021@phdcs.smu.edu.sg
+    duration: 2021.08 - now
     next: RICE Lab (Tony Tang), Singapore Management University (2024)
-    duration: 2021–2024
 
-  - name: Shaolun Ruan (阮劭伦)
+  - name: Shaolun Ruan
     status: current
     role: Ph.D. Candidate
     intro: Data Visualization, Human-Computer Interaction
@@ -66,8 +54,31 @@ profiles:
     image_circular: false
     website: https://shaolun-ruan.com/
     email: shaolun.ruan@monash.edu
+    duration: 2022.01 - now
     next: Research Scholar, Monash University, Australia (2025)
-    duration: 2022–2025
+  
+  - name: Manusha Karunathilaka
+    status: current
+    role: Ph.D. Student
+    intro: Data Storytelling and Human-Computer Interaction
+    image: manusha.jpg
+    image_circular: false
+    website: https://www.manusha-karunathilaka.com/
+    email: gmik.vidana.2023@phdcs.smu.edu.sg
+    duration: 2023.08 - now
+    next: # Add next position or status here if needed
+
+  - name: Xiaolin Wen
+    status: current # current or past
+    role: PhD Student
+    intro: Visualization and Human-Computer Interaction
+    image: wenxiaolin.png
+    image_circular: false # crops the image to make it circular
+    website: https://wenxiaolin.com/
+    email: xiaolin004@e.ntu.edu.sg
+    duration: 2025.01 - now
+    next: XXX
+    # content: about_member_test.md
 
   - name: Shiwei Chen
     status: current # current or past
@@ -77,8 +88,8 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: https://csw0109.github.io/
     email: shiwei004@e.ntu.edu.sg
+    duration: 2025.01 - now
     next: XXX
-    duration: XXX
     # content: about_member_test.md
 
   - name: Kavinda Athapaththu
@@ -89,8 +100,8 @@ profiles:
     image_circular: false
     website: https://kavinda.lk/
     email: # Email not provided in the source
+    duration: 2024.01 - now # Add duration of the position here if needed
     next: # Add next position or status here if needed
-    duration: # Add duration of the position here if needed
 
   - name: Fengjie Wang
     status: current # current or past
@@ -100,20 +111,20 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: https://ff0820.github.io/
     email: ff11060820@gmail.com
+    duration: 2024.11 - now
     next: XXX
-    duration: XXX
     # content: about_member_test.md
 
-  - name: Fengling Zheng
+  - name: Yilun Fan
     status: current # current or past
     role: Visiting Student
-    intro: Visualization & Human-Computer Interaction, Knowledge Graph
-    image: zhengfengling.jpg # send your photos directly to FF via WeChat
+    intro: Visualization
+    image: fanyilun.jpg
     image_circular: false # crops the image to make it circular
     website: 
-    email: zhengfglg@gmail.com
+    email:
+    duration: 2024.11 - now
     next: XXX
-    duration: XXX
     # content: about_member_test.md
 
   - name: Jaeuk Lee
@@ -124,21 +135,23 @@ profiles:
     image_circular: false
     website: # Add website link here if available
     email: woukl22@gmail.com
+    duration: 2025.01 - now # Add duration of the position here if needed
     next: # Add next position or status here if needed
-    duration: # Add duration of the position here if needed
+
+  - name: Fengling Zheng
+    status: current # current or past
+    role: Visiting Student
+    intro: Visualization & Human-Computer Interaction, Knowledge Graph
+    image: zhengfengling.jpg # send your photos directly to FF via WeChat
+    image_circular: false # crops the image to make it circular
+    website: 
+    email: zhengfglg@gmail.com
+    duration: 2025.02 - now
+    next: XXX
+    # content: about_member_test.md
+ 
 
   # past members
-  - name: Haotian Li
-    status: past
-    role: Visiting Student
-    intro: Human-AI collaboration, human-computer interaction and artificial intelligence
-    image: haotian_li.jpg # Placeholder image filename
-    image_circular: false
-    website: https://haotian-li.com/
-    email: haotian.li@microsoft.com # Email not provided in the visible content
-    next: Microsoft Research Asia
-    duration: 2021.02-2021.09 # No duration details provided
-
   - name: Yanna Lin
     status: past
     role: Visiting Student
@@ -147,6 +160,17 @@ profiles:
     image_circular: false
     website: https://yannahhh.github.io/
     email: ylindg@connect.ust.hk
-    next: Postdoc at HKUST
     duration: 2022.05-2022.09
+    next: Postdoc at HKUST
+  
+  - name: Haotian Li
+    status: past
+    role: Visiting Student
+    intro: Human-AI collaboration, human-computer interaction and artificial intelligence
+    image: haotian_li.jpg # Placeholder image filename
+    image_circular: false
+    website: https://haotian-li.com/
+    email: haotian.li@microsoft.com # Email not provided in the visible content
+    duration: 2021.02-2021.09 # No duration details provided
+    next: Microsoft Research Asia
 ---
