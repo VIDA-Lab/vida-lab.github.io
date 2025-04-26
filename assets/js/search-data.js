@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-team",
+          title: "Team",
+          description: "Together, we achieve more than we ever could alone.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-team",
-          title: "Team",
-          description: "members of the lab.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/team/";
           },
         },{id: "post-a-post-with-plotly-js",
         
