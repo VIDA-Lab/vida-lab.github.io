@@ -25,7 +25,7 @@ profiles:
   
   - name: Can Liu
     status: current # current or past
-    role: Post-Doctoral
+    role: Postdoc
     intro: Deep learning-driven data visualization and human-computer interaction
     image: liucan.png
     image_circular: false # crops the image to make it circular
@@ -70,7 +70,7 @@ profiles:
 
   - name: Xiaolin Wen
     status: current # current or past
-    role: PhD Student
+    role: Ph.D. Student
     intro: Visualization and Human-Computer Interaction
     image: wenxiaolin.png
     image_circular: false # crops the image to make it circular
@@ -99,7 +99,7 @@ profiles:
     image: kavinda_athapaththu.jpg
     image_circular: false
     website: https://kavinda.lk/
-    email: # Email not provided in the source
+    email: kavinda.athapaththu@ntu.edu.sg # Email not provided in the source
     duration: 2024.01 - now # Add duration of the position here if needed
     next: # Add next position or status here if needed
 
@@ -160,7 +160,7 @@ profiles:
     image_circular: false
     website: https://yannahhh.github.io/
     email: ylindg@connect.ust.hk
-    duration: 2022.05-2022.09
+    duration: 2022.05 - 2022.09
     next: Postdoc at HKUST
   
   - name: Haotian Li
@@ -171,6 +171,6 @@ profiles:
     image_circular: false
     website: https://haotian-li.com/
     email: haotian.li@microsoft.com # Email not provided in the visible content
-    duration: 2021.02-2021.09 # No duration details provided
+    duration: 2021.02 - 2021.09 # No duration details provided
     next: Microsoft Research Asia
 ---
