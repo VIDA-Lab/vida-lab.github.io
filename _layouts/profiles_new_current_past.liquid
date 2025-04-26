@@ -1,0 +1,221 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.profiles %}
+      <!-- Current Members Section -->
+      <h2 class="profiles-title mb-3">Current Members</h2>
+      <div class="profiles-container d-flex flex-wrap justify-content-start">
+        {% for profile in page.profiles %}
+          {% if profile.status == "current" %}
+            <!-- Each profile card -->
+            <div class="profile-card m-3 text-center">
+              <!-- Profile image -->
+              {% if profile.image %}
+              {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
+              {% if profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+              {% endif %}
+
+              <!-- Name -->
+              {% if profile.name %}
+                <h3 class="profile-name mb-1">{{ profile.name }}</h3>
+              {% endif %}
+
+              <!-- Role -->
+              {% if profile.role %}
+                <p class="profile-role mb-1 text-muted">{{ profile.role }}</p>
+              {% endif %}
+
+              <!-- Brief Introduction -->
+              {% if profile.intro %}
+                <p class="profile-intro mb-2">{{ profile.intro }}</p>
+              {% endif %}
+
+              <!-- Personal Website and Email -->
+              <div class="profile-links d-flex justify-content-center align-items-center mt-2">
+                {% if profile.website %}
+                  <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
+                {% endif %}
+                {% if profile.email %}
+                  <button class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
+                    Email
+                    <span class="copy-text">(copy)</span>
+                  </button>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Past Members Section -->
+      <h2 class="profiles-title mt-5 mb-3">Past Members</h2>
+      <div class="profiles-container d-flex flex-wrap justify-content-start">
+        {% for profile in page.profiles %}
+          {% if profile.status == "past" %}
+            <!-- Each profile card -->
+            <div class="profile-card m-3 text-center">
+              <!-- Profile image -->
+              {% if profile.image %}
+              {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
+              {% if profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+              {% endif %}
+
+              <!-- Name -->
+              {% if profile.name %}
+                <h3 class="profile-name mb-1">{{ profile.name }}</h3>
+              {% endif %}
+
+              <!-- Role -->
+              {% if profile.role %}
+                <p class="profile-role mb-1 text-muted">{{ profile.role }}</p>
+              {% endif %}
+
+              <!-- Brief Introduction -->
+              {% comment %} {% if profile.intro %}
+                <p class="profile-intro mb-2">{{ profile.intro }}</p>
+              {% endif %} {% endcomment %}
+
+              <!-- Duration -->
+              {% if profile.duration %}
+                <p class="profile-intro mb-2">{{ profile.duration }}</p>
+              {% endif %}
+
+              <!-- Current Status -->
+              {% if profile.next %}
+                <p class="profile-intro mb-2">{{ profile.next }}</p>
+              {% endif %}
+
+              <!-- Personal Website and Email -->
+              <div class="profile-links d-flex justify-content-center align-items-center mt-2">
+                {% if profile.website %}
+                  <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
+                {% endif %}
+                {% if profile.email %}
+                  <button class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
+                    Email
+                    <span class="copy-text">(copy)</span>
+                  </button>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </article>
+</div>
+
+<!-- Add some inline styles for layout customization -->
+<style>
+  .profiles-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap profiles to multiple rows */
+    gap: 1rem; /* Space between profiles */
+  }
+
+  .profiles-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+
+  .profile-card {
+    max-width: 200px; /* Adjusted width for a better layout */
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0.75rem;
+    background-color: #f9f9f9;
+  }
+
+  .profile-image img {
+    width: 100px; /* Smaller size for the profile image */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Ensure the image is circular */
+    border: 2px solid #ddd;
+  }
+
+  .fixed-size {
+  /* width: 150px; Adjust to your desired size */
+  height: 216px; /* Adjust to your desired size */
+  object-fit: cover; /* Ensures the image fills the dimensions properly */
+  }
+
+  .profile-name {
+    font-size: 1.2rem; /* Larger font size for the name */
+    font-weight: bold;
+    color: #333;
+  }
+
+  .profile-role {
+    font-size: 1rem;
+    color: #777;
+  }
+
+  .profile-intro {
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .profile-links {
+    font-size: 0.9rem;
+    display: flex;
+    gap: 1rem; /* Space between website and email */
+  }
+
+  .profile-links a, 
+  .profile-links button {
+    text-decoration: none;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: #007bff;
+    background: none;
+    border: none;
+    padding: 0;
+    text-transform: none;
+  }
+
+  .profile-links a:hover, 
+  .profile-links button:hover {
+    text-decoration: underline;
+  }
+
+  /* Hide the (copy) text by default */
+  .copy-text {
+    display: none;
+    font-size: 0.85rem;
+    color: #007bff;
+    margin-left: 0.2rem;
+  }
+
+  /* Show (copy) on hover */
+  .email-button:hover .copy-text {
+    display: inline;
+  }
+</style>
+
+<!-- Add script for copying email to clipboard -->
+<script>
+  function copyToClipboard(email) {
+    navigator.clipboard.writeText(email).then(() => {
+      // alert('Email copied to clipboard: ' + email);
+    });
+  }
+</script>
