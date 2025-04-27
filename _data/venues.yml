@@ -8,11 +8,13 @@
 "Vision":
   color: "#009f36"
 
-
 "TVCG":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
   color: "#f03b20"
 
+"EMNLP":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
+  color: "#223b20"
 
 "CHI":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
