@@ -13,9 +13,13 @@
   color: "#f03b20"
 
 "EMNLP":
-  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
+  url: https://aclanthology.org/venues/emnlp/
   color: "#223b20"
 
 "CHI":
-  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
+  url: https://dl.acm.org/conference/chi
   color: "#66c2a5"
+
+"VIS":
+    url: https://dblp.org/db/conf/visualization/index.html
+    color: "#66c2a5"
