@@ -118,13 +118,13 @@ profiles:
   - name: Yilun Fan
     status: current # current or past
     role: Visiting Student
-    intro: Visualization
+    intro: Data Visualization & Human-Computer Interaction
     image: fanyilun.jpg
     image_circular: false # crops the image to make it circular
     website: 
-    email:
+    email: fanyilun7@gmail.com 
     duration: 2024.11 - now
-    next: XXX
+    next: Central South University
     # content: about_member_test.md
 
   - name: Jaeuk Lee
@@ -152,6 +152,50 @@ profiles:
  
 
   # past members
+  - name: Cheng Chen
+    status: past
+    role: Visiting Student
+    intro: 
+    image: default.jpg # Placeholder image filename
+    image_circular: false
+    website: 
+    email:  # Email not provided in the visible content
+    duration: 2022.06 - 2023.11 # No duration details provided
+    next:
+
+  - name: Li Ye
+    status: past
+    role: Visiting Student
+    intro: 
+    image: default.jpg # Placeholder image filename
+    image_circular: false
+    website: 
+    email:  # Email not provided in the visible content
+    duration: 2023.08 - 2023.10 # No duration details provided
+    next:
+
+  - name: Haoxuan Wang
+    status: past
+    role: Visiting Student
+    intro: 
+    image: default.jpg # Placeholder image filename
+    image_circular: false
+    website: 
+    email:  # Email not provided in the visible content
+    duration: 2023.08 - 2023.10 # No duration details provided
+    next:
+
+  - name: Ribo Yuan
+    status: past
+    role: Remote Research Assistant
+    intro: 
+    image: default.jpg # Placeholder image filename
+    image_circular: false
+    website: 
+    email:  # Email not provided in the visible content
+    duration:  2022.05 - 2023.02 # No duration details provided
+    next:
+
   - name: Yanna Lin
     status: past
     role: Visiting Student
@@ -173,4 +217,26 @@ profiles:
     email: haotian.li@microsoft.com # Email not provided in the visible content
     duration: 2021.02 - 2021.09 # No duration details provided
     next: Microsoft Research Asia
+
+  - name: Kim Siang Yeo
+    status: past
+    role: MITB Student
+    intro: 
+    image: default.jpg # Placeholder image filename
+    image_circular: false
+    website: 
+    email:  # Email not provided in the visible content
+    duration: 2021.11 - 2022.05 # No duration details provided
+    next:
+
+  - name: Haonan Xu
+    status: past
+    role: MSc Student
+    intro: 
+    image: default.jpg # Placeholder image filename
+    image_circular: false
+    website: 
+    email:  # Email not provided in the visible content
+    duration: 2020.12 - 2021.06 # No duration details provided
+    next:
 ---
