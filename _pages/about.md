@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Visual and Intelligent Data Analytics Lab (VIDA) Lab at Nanyang Technological University (NTU), Singapore, is dedicated to advancing the frontiers of visual analytics, data visualization, and human-centered AI.
-Situated within the College of Computing and Data Science (CCDS), VIDA Lab focuses on designing intelligent, interactive systems that empower users to make sense of complex data through visual and explainable means.
+Visual and Intelligent Data Analytics Lab (VIDA) Lab at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), Singapore, is dedicated to advancing the frontiers of visual analytics, data visualization, and human-centered AI.
+Situated within the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), VIDA Lab focuses on designing intelligent, interactive systems that empower users to make sense of complex data through visual and explainable means.
 
-VIDA lab is led by Dr. Yong Wang, a tenure-track Assistant Professor at CCDS, NTU. Prior to joining NTU, Dr. Yong Wang was an Assistant Professor at the Singapore Management University (SMU) and received his PhD from the Hong Kong University of Science and Technology (HKUST) under the supervision of Prof. Huamin Qu.
+VIDA lab is led by [Dr. Yong Wang](https://yong-wang.org/), a tenure-track Assistant Professor at CCDS, NTU. Prior to joining NTU, Dr. Yong Wang was an Assistant Professor at the [School of Computing and Information Systems (SCIS)](https://computing.smu.edu.sg/), [Singapore Management University (SMU)](https://smu.edu.sg) and received his PhD from the [Hong Kong University of Science and Technology (HKUST)](http://www.ust.hk/) under the supervision of [Prof. Huamin Qu](http://huamin.org/).
 
 ### Research Areas
 Our research intersects multiple disciplines, including:
