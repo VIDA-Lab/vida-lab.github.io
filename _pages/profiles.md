@@ -35,16 +35,17 @@ profiles:
     next: XXX
     # content: about_member_test.md
 
-  - name: Songheng Zhang
-    status: current
-    role: Ph.D. Candidate
-    intro: Mobile Visualization, AI4Vis, Data Science, Data Analysis, Statistics
-    image: songheng_zhang.jpg
-    image_circular: false
-    website: https://alexanderzsh.github.io/
-    email: shzhang.2021@phdcs.smu.edu.sg
-    duration: 2021.08 - now
-    next: RICE Lab (Tony Tang), Singapore Management University (2024)
+  - name: Xiaolin Wen
+    status: current # current or past
+    role: Ph.D. Student
+    intro: Visualization and Human-Computer Interaction
+    image: wenxiaolin.png
+    image_circular: false # crops the image to make it circular
+    website: https://wenxiaolin.com/
+    email: xiaolin004@e.ntu.edu.sg
+    duration: 2025.01 - now
+    next: XXX
+    # content: about_member_test.md
 
   - name: Shaolun Ruan
     status: current
@@ -68,17 +69,19 @@ profiles:
     duration: 2023.08 - now
     next: # Add next position or status here if needed
 
-  - name: Xiaolin Wen
-    status: current # current or past
-    role: Ph.D. Student
-    intro: Visualization and Human-Computer Interaction
-    image: wenxiaolin.png
-    image_circular: false # crops the image to make it circular
-    website: https://wenxiaolin.com/
-    email: xiaolin004@e.ntu.edu.sg
-    duration: 2025.01 - now
-    next: XXX
-    # content: about_member_test.md
+
+  - name: Songheng Zhang
+    status: current
+    role: Ph.D. Candidate
+    intro: Mobile Visualization, AI4Vis, Data Science, Data Analysis, Statistics
+    image: songheng_zhang.jpg
+    image_circular: false
+    website: https://alexanderzsh.github.io/
+    email: shzhang.2021@phdcs.smu.edu.sg
+    duration: 2021.08 - now
+    next: RICE Lab (Tony Tang), Singapore Management University (2024)
+
+
 
   - name: Shiwei Chen
     status: current # current or past
@@ -150,6 +153,18 @@ profiles:
     next: XXX
     # content: about_member_test.md
  
+  - name: Yi Ding
+    status: past # current or past
+    role: Visiting Student
+    intro: Visualization & Human-Computer Interaction, Knowledge Graph
+    image: default.jpg # send your photos directly to FF via WeChat
+    image_circular: false # crops the image to make it circular
+    website: 
+    email: zhengfglg@gmail.com
+    duration: 2025.02 - 2025.4
+    next: XXX
+    # content: about_member_test.md
+
 
   # past members
   - name: Cheng Chen
