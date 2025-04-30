@@ -25,7 +25,7 @@ profiles:
   
   - name: Can Liu
     status: current # current or past
-    role: Postdoc
+    role: Postdoc Research Fellow
     intro: Deep learning-driven data visualization and human-computer interaction
     image: liucan.png
     image_circular: false # crops the image to make it circular

@@ -27,6 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<!-- 在 index.md 或其他页面插入以下代码 -->
+<!-- <div style="text-align: center;">
+  <img src="{{ '/assets/img/custom/banner.jpg' | relative_url }}" alt="Banner Image" style="width: 100%; max-width: 1200px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-bottom: 2rem;" />
+</div> -->
+
+
 Visual and Intelligent Data Analytics Lab (VIDA) Lab at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), Singapore, is dedicated to advancing the frontiers of visual analytics, data visualization, and human-centered AI.
 Situated within the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), VIDA Lab focuses on designing intelligent, interactive systems that empower users to make sense of complex data through visual and explainable means.
 
