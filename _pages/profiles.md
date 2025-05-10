@@ -162,7 +162,7 @@ profiles:
     website: 
     email: zhengfglg@gmail.com
     duration: 2025.02 - 2025.4
-    next: XXX
+    next: 
     # content: about_member_test.md
 
 
@@ -171,7 +171,7 @@ profiles:
     status: past
     role: Visiting Student
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: chencheng.jpg # Placeholder image filename
     image_circular: false
     website: 
     email:  # Email not provided in the visible content
@@ -193,7 +193,7 @@ profiles:
     status: past
     role: Visiting Student
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: haoxuanwang.jpg # Placeholder image filename
     image_circular: false
     website: 
     email:  # Email not provided in the visible content
@@ -237,7 +237,7 @@ profiles:
     status: past
     role: MITB Student
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: kimsiang.jpg # Placeholder image filename
     image_circular: false
     website: 
     email:  # Email not provided in the visible content
