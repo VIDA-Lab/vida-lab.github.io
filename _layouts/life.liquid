@@ -1,0 +1,80 @@
+---
+layout: page
+---
+<div class="post">
+  <article class="page-content">
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+    {{ content }}
+
+    {% if page.gallery %}
+      {% for gallery in page.gallery %}
+        <section class="gallery-section">
+          <h2>{{ gallery.title }}</h2>
+          <p class="post-meta">{{ gallery.date | date: "%B %-d, %Y" }}</p>
+          <div class="gallery-description">
+            {{ gallery.description }}
+          </div>
+
+          {% if gallery.images %}
+            <div class="image-gallery">
+             {% assign base = "/assets/img/life/" %}
+                {% for img in gallery.images limit:4 %}
+                  <figure class="gallery-item">
+                  <img
+                      src="{{ base | append: img | relative_url }}"
+                      alt="{{ gallery.title }} – image {{ forloop.index }}"
+                    />
+                  </figure>
+              {% endfor %}
+            </div>
+          {% else %}
+            <p><em>No images for this gallery.</em></p>
+          {% endif %}
+        </section>
+      {% endfor %}
+    {% else %}
+      <p><em>No galleries found.</em></p>
+    {% endif %}
+  </article>
+</div>
+
+<style>
+.gallery-section {
+  margin-top: 3rem;
+  border-top: 1px solid #ddd;
+  padding-top: 2rem;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 2400px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.gallery-item {
+  max-width: 600px;
+  width: 100%;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-description {
+  margin-bottom: 1rem;
+}
+
+</style>
