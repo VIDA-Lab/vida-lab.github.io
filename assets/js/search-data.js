@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-life-vidalab",
+          title: "life@VIDALab",
+          description: "Life is a journey, not a destination.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/life/";
+          },
         },{id: "news-fengjie-yilun-and-can-join-the-team-warm-welcome",
           title: 'Fengjie, Yilun and Can join the team, warm welcome!',
           description: "",
