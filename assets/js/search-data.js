@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-achievements",
+          title: "Achievements",
+          description: "Great achievement always requires great sacrifice.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/achievements/";
+          },
         },{id: "nav-life-vidalab",
           title: "life@VIDALab",
           description: "Life is a journey, not a destination.",
