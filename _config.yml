@@ -177,6 +177,7 @@ include:
   - _pages/publications.md
   - _pages/news.md
   - _pages/life.md
+  - _pages/achievements.md
 exclude:
   - bin/
   - CONTRIBUTING.md
