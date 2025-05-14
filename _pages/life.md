@@ -4,7 +4,7 @@ permalink: /life/
 title: life@VIDALab
 description: Life is a journey, not a destination.
 nav: true
-nav_order: 4
+nav_order: 5
 
 gallery:
   - title: "After IEEE Vis'25 Submission"

@@ -1,0 +1,71 @@
+---
+layout: page
+---
+
+<div class="post">
+  <article>
+  {% if page.achievements %}
+  <ul class="achievements-list">
+    {%- assign sorted = page.achievements | sort: "date" | reverse -%}
+    {%- for ach in sorted -%}
+      <li class="achievement-item">
+        {%- comment -%} Format the date intelligently {%- endcomment -%}
+        {% assign parts = ach.date | split: "-" %}
+        {% if parts.size == 3 %}
+          <time datetime="{{ ach.date }}">{{ ach.date | date: "%B %-d, %Y" }}</time>
+        {% elsif parts.size == 2 %}
+          <time datetime="{{ ach.date }}">{{ ach.date | date: "%B, %Y" }}</time>
+        {% else %}
+          <time datetime="{{ ach.date }}">{{ ach.date }}</time>
+        {% endif %}
+
+        <h3 class="achievement-title">
+          {% if ach.link %}
+            <a href="{{ ach.link | relative_url }}">{{ ach.title }}</a>
+          {% else %}
+            {{ ach.title }}
+          {% endif %}
+        </h3>
+
+        <p class="achievement-desc">{{ ach.description }}</p>
+      </li>
+    {%- endfor -%}
+  </ul>
+{% else %}
+  <p><em>No achievements to show.</em></p>
+{% endif %}
+  </article>
+</div>
+
+<style>
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+.achievement-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+.achievement-item:last-child {
+  border-bottom: none;
+}
+.achievement-item time {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+.achievement-title {
+  margin: 0.25rem 0;
+  font-size: 1.1rem;
+}
+.achievement-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.achievement-desc {
+  margin: 0.5rem 0 0;
+}
+
+</style>
