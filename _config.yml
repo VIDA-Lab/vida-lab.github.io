@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "NTU VIDA Group" # the website title (if blank, full name will be used instead)
+title: "NTU VIDA Lab" # the website title (if blank, full name will be used instead)
 first_name: VIDA
-middle_name: LAB,
+middle_name: Lab,
 last_name: NTU
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.

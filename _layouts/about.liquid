@@ -1,19 +1,42 @@
 ---
 layout: default
 ---
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
 <div class="post">
   <header class="post-header">
-    {% comment %}
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-    {% endcomment %}
+     <div class="clearfix">
+        <div class="slider">
+          <swiper-container
+            class="hero-swiper"
+            loop="true"
+            autoplay="true"
+            autoplay-delay="5000"
+            autoplay-disable-on-interaction="false"
+            pagination="true"
+            style="width:100%; height:auto;"
+          >
+            {% assign base = "/assets/img/slides/" %}
+            {% for file in page.slide %}
+              <swiper-slide>
+                <img
+                  src="{{ base | append: file | relative_url }}"
+                  alt="{{ site.title }} – slide {{ forloop.index }}"
+                />
+              </swiper-slide>
+            {% endfor %}
+          </swiper-container>
+        </div>
+
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span>
+          {{ site.middle_name }} {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+    </div>
   </header>
 
   <article>
@@ -80,3 +103,19 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<style>
+.slider{
+  margin-bottom : 3em;
+}
+.hero-swiper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.hero-swiper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+</style>

@@ -25,6 +25,11 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+slide:
+  - hero1.jpg
+  - hero2.jpg
+
 ---
 
 <!-- 在 index.md 或其他页面插入以下代码 -->
