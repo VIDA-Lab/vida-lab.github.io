@@ -200,7 +200,7 @@ profiles:
     status: past
     role: Research Assistant
     intro: 
-    image: riboyuan.jpg # Placeholder image filename
+    image: ribo_yuan.jpg # Placeholder image filename
     image_circular: false
     website: https://www.linkedin.com/in/riboyuan/
     email: Please reach out to the PI to contact the member # Email not provided in the visible content
@@ -244,7 +244,7 @@ profiles:
     status: past
     role: MSc Student
     intro: 
-    image: xuhaonan.jpg # Placeholder image filename
+    image: haonan_xu.jpg # Placeholder image filename
     image_circular: false
     website: https://www.linkedin.com/in/haonan-xu-flm/?originalSubdomain=sg
     email: Please reach out to the PI to contact the member # Email not provided in the visible content
