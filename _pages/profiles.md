@@ -60,7 +60,7 @@ profiles:
   
   - name: Manusha Karunathilaka
     status: current
-    role: Ph.D. Student
+    role: Ph.D. Candidate
     intro: Data Storytelling and Human-Computer Interaction
     image: manusha.jpg
     image_circular: false
