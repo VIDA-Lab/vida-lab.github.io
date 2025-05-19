@@ -25,7 +25,7 @@ profiles:
   
   - name: Can Liu
     status: current # current or past
-    role: Postdoc Research Fellow
+    role: Postdoc
     intro: Deep learning-driven data visualization and human-computer interaction
     image: liucan.png
     image_circular: false # crops the image to make it circular
@@ -69,7 +69,6 @@ profiles:
     duration: 2023.08 - now
     next: # Add next position or status here if needed
 
-
   - name: Songheng Zhang
     status: current
     role: Ph.D. Candidate
@@ -80,8 +79,6 @@ profiles:
     email: shzhang.2021@phdcs.smu.edu.sg
     duration: 2021.08 - now
     next: RICE Lab (Tony Tang), Singapore Management University (2024)
-
-
 
   - name: Shiwei Chen
     status: current # current or past
@@ -118,53 +115,52 @@ profiles:
     next: XXX
     # content: about_member_test.md
 
-  - name: Yilun Fan
-    status: current # current or past
-    role: Visiting Student
-    intro: Data Visualization & Human-Computer Interaction
-    image: fanyilun.jpg
-    image_circular: false # crops the image to make it circular
-    website: 
-    email: fanyilun7@gmail.com 
-    duration: 2024.11 - now
-    next: Central South University
-    # content: about_member_test.md
-
-  - name: Jaeuk Lee
-    status: current
-    role: Visiting Student
-    intro: Data Visualization, XAI
-    image: jaeuk_lee.jpg
-    image_circular: false
-    website: # Add website link here if available
-    email: woukl22@gmail.com
-    duration: 2025.01 - now # Add duration of the position here if needed
-    next: # Add next position or status here if needed
-
   - name: Fengling Zheng
     status: current # current or past
     role: Visiting Student
     intro: Visualization & Human-Computer Interaction, Knowledge Graph
     image: zhengfengling.jpg # send your photos directly to FF via WeChat
     image_circular: false # crops the image to make it circular
-    website: 
+    website: https://vida-lab.org/team/
     email: zhengfglg@gmail.com
     duration: 2025.02 - now
-    next: XXX
+    next: Hangzhou Dianzi University
     # content: about_member_test.md
+
+  - name: Yilun Fan
+    status: past # current or past
+    role: Visiting Student
+    intro: Data Visualization & Human-Computer Interaction
+    image: fanyilun.jpg
+    image_circular: false # crops the image to make it circular
+    website: https://vida-lab.org/team/
+    email: fanyilun7@gmail.com 
+    duration: 2024.11 - 2025.05
+    next: Central South University
+    # content: about_member_test.md
+
+  - name: Jaeuk Lee
+    status: past
+    role: Visiting Student
+    intro: Data Visualization, XAI
+    image: jaeuk_lee.jpg
+    image_circular: false
+    website: https://vida-lab.org/team/ # Add website link here if available
+    email: woukl22@gmail.com
+    duration: 2025.01 - 2025.05 # Add duration of the position here if needed
+    next: Ajou University # Add next position or status here if needed
  
   - name: Yi Ding
     status: past # current or past
     role: Visiting Student
     intro: Visualization & Human-Computer Interaction, Knowledge Graph
-    image: default.jpg # send your photos directly to FF via WeChat
+    image: dingyi.jpg # send your photos directly to FF via WeChat
     image_circular: false # crops the image to make it circular
-    website: 
-    email: zhengfglg@gmail.com
+    website: https://vida-lab.org/team/
+    email: Please reach out to the PI to contact the member
     duration: 2025.02 - 2025.4
-    next: 
+    next: Hangzhou Dianzi University
     # content: about_member_test.md
-
 
   # past members
   - name: Cheng Chen
@@ -173,21 +169,21 @@ profiles:
     intro: 
     image: chencheng.jpg # Placeholder image filename
     image_circular: false
-    website: 
-    email:  # Email not provided in the visible content
+    website: https://vida-lab.org/team/
+    email: Please reach out to the PI to contact the member # Email not provided in the visible content
     duration: 2022.06 - 2023.11 # No duration details provided
-    next:
+    next: Renmin University of China
 
   - name: Li Ye
     status: past
     role: Visiting Student
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: liye.jpg # Placeholder image filename
     image_circular: false
-    website: 
-    email:  # Email not provided in the visible content
+    website: https://vida-lab.org/team/
+    email: Please reach out to the PI to contact the member # Email not provided in the visible content
     duration: 2023.08 - 2023.10 # No duration details provided
-    next:
+    next: Hangzhou Dianzi University
 
   - name: Haoxuan Wang
     status: past
@@ -195,21 +191,21 @@ profiles:
     intro: 
     image: haoxuanwang.jpg # Placeholder image filename
     image_circular: false
-    website: 
-    email:  # Email not provided in the visible content
+    website: https://vida-lab.org/team/
+    email: Please reach out to the PI to contact the member # Email not provided in the visible content
     duration: 2023.08 - 2023.10 # No duration details provided
-    next:
+    next: Zhejiang University of Finance & Economics
 
   - name: Ribo Yuan
     status: past
-    role: Remote Research Assistant
+    role: Research Assistant
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: riboyuan.jpg # Placeholder image filename
     image_circular: false
-    website: 
-    email:  # Email not provided in the visible content
-    duration:  2022.05 - 2023.02 # No duration details provided
-    next:
+    website: https://www.linkedin.com/in/riboyuan/
+    email: Please reach out to the PI to contact the member # Email not provided in the visible content
+    duration: 2022.05 - 2023.02 # No duration details provided
+    next: Engineer at Tesla
 
   - name: Yanna Lin
     status: past
@@ -231,7 +227,7 @@ profiles:
     website: https://haotian-li.com/
     email: haotian.li@microsoft.com # Email not provided in the visible content
     duration: 2021.02 - 2021.09 # No duration details provided
-    next: Microsoft Research Asia
+    next: Researcher at MSRA
 
   - name: Kim Siang Yeo
     status: past
@@ -239,19 +235,19 @@ profiles:
     intro: 
     image: kimsiang.jpg # Placeholder image filename
     image_circular: false
-    website: 
-    email:  # Email not provided in the visible content
+    website: https://www.linkedin.com/in/kim-siang-yeo-b42317134/?originalSubdomain=sg
+    email: Please reach out to the PI to contact the member # Email not provided in the visible content
     duration: 2021.11 - 2022.05 # No duration details provided
-    next:
+    next: Data Analyst at Citi
 
   - name: Haonan Xu
     status: past
     role: MSc Student
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: xuhaonan.jpg # Placeholder image filename
     image_circular: false
-    website: 
-    email:  # Email not provided in the visible content
+    website: https://www.linkedin.com/in/haonan-xu-flm/?originalSubdomain=sg
+    email: Please reach out to the PI to contact the member # Email not provided in the visible content
     duration: 2020.12 - 2021.06 # No duration details provided
-    next:
+    next: Developer at Singtel
 ---
