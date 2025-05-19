@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Fengjie, Yilun and Can join the team, warm welcome!
+Our paper PrettiSmart is accepted by PacificVis25-TVCG Track!
