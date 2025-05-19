@@ -204,7 +204,7 @@ profiles:
     status: past
     role: Remote Research Assistant
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: ribo_yuan.jpg # Placeholder image filename
     image_circular: false
     website: 
     email:  # Email not provided in the visible content
