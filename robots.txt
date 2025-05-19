@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://thevidalab.github.io/sitemap.xml
+Sitemap: https://vida-lab.org/sitemap.xml
