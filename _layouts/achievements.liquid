@@ -28,6 +28,18 @@ layout: page
         </h3>
 
         <p class="achievement-desc">{{ ach.description }}</p>
+
+        {% if ach.images %}
+          <div class="achievement-images">
+            {% for img in ach.images limit:4 %}
+              <img
+                src="{{ '/assets/img/achievements/' | append: img | relative_url }}"
+                alt="{{ ach.title }} image {{ forloop.index }}"
+                class="achievement-img"
+              />
+            {% endfor %}
+          </div>
+        {% endif %}
       </li>
     {%- endfor -%}
   </ul>
@@ -66,6 +78,19 @@ layout: page
 }
 .achievement-desc {
   margin: 0.5rem 0 0;
+}
+
+.achievement-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.achievement-img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
 }
 
 </style>
