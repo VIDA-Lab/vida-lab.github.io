@@ -60,7 +60,7 @@ profiles:
   
   - name: Manusha Karunathilaka
     status: current
-    role: Ph.D. Student
+    role: Ph.D. Candidate
     intro: Data Storytelling and Human-Computer Interaction
     image: manusha.jpg
     image_circular: false
@@ -131,14 +131,14 @@ profiles:
     # content: about_member_test.md
 
   - name: Jaeuk Lee
-    status: current
+    status: past
     role: Visiting Student
     intro: Data Visualization, XAI
     image: jaeuk_lee.jpg
     image_circular: false
     website: # Add website link here if available
     email: woukl22@gmail.com
-    duration: 2025.01 - now # Add duration of the position here if needed
+    duration: 2025.01 - 2025.05 # Add duration of the position here if needed
     next: # Add next position or status here if needed
 
   - name: Fengling Zheng
@@ -157,7 +157,7 @@ profiles:
     status: past # current or past
     role: Visiting Student
     intro: Visualization & Human-Computer Interaction, Knowledge Graph
-    image: default.jpg # send your photos directly to FF via WeChat
+    image: yi_ding.jpg # send your photos directly to FF via WeChat
     image_circular: false # crops the image to make it circular
     website: 
     email: zhengfglg@gmail.com
@@ -182,7 +182,7 @@ profiles:
     status: past
     role: Visiting Student
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: li_ye.jpg # Placeholder image filename
     image_circular: false
     website: 
     email:  # Email not provided in the visible content
@@ -248,7 +248,7 @@ profiles:
     status: past
     role: MSc Student
     intro: 
-    image: default.jpg # Placeholder image filename
+    image: haonan_xu.jpg # Placeholder image filename
     image_circular: false
     website: 
     email:  # Email not provided in the visible content
