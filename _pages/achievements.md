@@ -7,10 +7,10 @@ nav: true
 nav_order: 4
 
 achievements:
-  - title: "PrettiSmart wins IEEE Symposium Pacific Visualization Journal Track Honorable Mention Award!"
-    date: "2025-04-24"
+  - title: "Journal Track | Honorable Mention Award from IEEE Pacific Visualization Conference"
+    date: "2025-04"
     description: >
-      Received a Honorable Mention Award for our work on “PrettiSmart: Visual Interpretation of Smart Contracts via Simulation.”
+      “PrettiSmart: Visual Interpretation of Smart Contracts via Simulation”
     link: "https://arxiv.org/pdf/2412.18484"
     images:
       - prettysmart_h_mention_1.jpg
