@@ -39,7 +39,7 @@ profiles:
     status: current # current or past
     role: Ph.D. Student
     intro: Visualization and Human-Computer Interaction
-    image: wenxiaolin.png
+    image: wenxiaolin.jpg
     image_circular: false # crops the image to make it circular
     website: https://wenxiaolin.com/
     email: xiaolin004@e.ntu.edu.sg
