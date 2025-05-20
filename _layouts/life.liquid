@@ -5,11 +5,11 @@ layout: page
   <article class="page-content">
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
     {{ content }}
-
+    {% assign sorted_galleries = page.gallery | sort: "date" | reverse %}
     {% if page.gallery %}
-      {% for gallery in page.gallery %}
+      {% for gallery in sorted_galleries %}
         <section class="gallery-section">
-          <h2>{{ gallery.title }}</h2>
+          <h4>{{ gallery.title }}</h4>
           <p class="post-meta">{{ gallery.date | date: "%B %-d, %Y" }}</p>
           <div class="gallery-description">
             {{ gallery.description }}
