@@ -73,6 +73,11 @@ layout: default
         loop="true"
         centered-slides="true"
         slides-per-view="3"
+        breakpoints='{
+          "0":   { "slidesPerView": 1 },
+          "640": { "slidesPerView": 2 },
+          "1024":{ "slidesPerView": 3 }
+        }'
         grab-cursor="true"
         autoplay="true"
         autoplay-delay="3000"
@@ -210,6 +215,14 @@ layout: default
   .pub-title{
     background: rgba(0,0,0,.4);
     color: #fff;
+  }
+}
+
+/* ≤640 px：标题更小、内边距略减 */
+@media (max-width:640px){
+  .pub-title{
+    font-size: .9em;
+    padding: .35em .8em;
   }
 }
 
