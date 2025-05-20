@@ -44,4 +44,54 @@ gallery:
     description: >
     images:
       - First_Group_Meeting_With_Kavinda.jpg
+
+  - title: "We ❤️ SMU"
+    date: 2024-01
+    description: >
+    images:
+      - I_love_SMU_1.jpg
+      - I_love_SMU_2.jpg
+
+  - title: "Happy Teachers' Day"
+    date: 2024-01
+    description: >
+    images:
+      - Teachers_Day.jpg
+      - Teachers_Day_2.jpg
+
+  - title: "Bukit Timah Summit"
+    date: 2024-01
+    description: "Bukit Timah Hill is the highest natural point in Singapore"
+    images:
+      - Bukit_Timah_Summit.jpg
+
+  - title: "Marina Bay Sands"
+    date: 2024-01
+    description: >
+    images:
+      - Marina_Bay_Sands.jpg
+
+  - title: "Attending CHI'23"
+    date: 2024-01
+    description: >
+    images:
+      - CHI2023.jpg
+
+  - title: "Attending ChinaVis 2024"
+    date: 2024-01
+    description: >
+    images:
+      - ChinaVis_2024.jpg
+      
+  - title: "Welcome Chen & Yanna to the team!"
+    date: 2024-01
+    description: >
+    images:
+      - Welcome_Chen_Yanna.jpg
+
+  - title: "After CHI 2023 Submission!"
+    date: 2024-01
+    description: >
+    images:
+      - After_CHI_2023_Submission.jpg
 ---
