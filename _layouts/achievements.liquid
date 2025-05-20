@@ -27,7 +27,16 @@ layout: page
           {% endif %}
         </h3>
 
-        <p class="achievement-desc">{{ ach.description }}</p>
+
+        {% comment %} <p class="achievement-desc">{{ ach.description }}</p> {% endcomment %}
+        <p class="achievement-desc">
+          {% if ach.link %}
+            <a href="{{ ach.link | relative_url }}">{{ ach.description }}</a>
+          {% else %}
+            {{ ach.description }}
+          {% endif %}
+        </p>
+         
 
         {% if ach.images %}
           <div class="achievement-images">
