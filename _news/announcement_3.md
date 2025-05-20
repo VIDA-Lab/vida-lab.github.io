@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-02-23
+date: 2025-02-01
 inline: true
 related_posts: false
 ---
 
-Two short papers are accepted by CHI25-LBW!
+[Fengling](https://vida-lab.org/team/) and [Yi](https://vida-lab.org/team/) join our team as visiting students! Welcome!!!🎉🎉🎉

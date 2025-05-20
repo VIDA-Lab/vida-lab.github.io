@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-07-01
+date: 2021-09-01
 inline: true
 related_posts: false
 ---
 
-Two papers (VACSEN and Taurus) are accepted by IEEE VIS 2022!
+Breakthrough year: two IEEE VIS 2021 **Best Paper Honorable Mentions** (KG4VIS & M²Lens), multiple TVCG/DATE acceptances, and our first PhD student [Songheng](https://alexanderzsh.github.io/) joins — bravo team! 🥳

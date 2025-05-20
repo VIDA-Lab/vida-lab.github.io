@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-QuantumEyes is accepted by TVCG!
+Autumn haul: five new papers across EMNLP, TVCG, PRDC & FinLLM, and NumGPT wins the **Technology Novelty Award** — stellar teamwork! 🏆

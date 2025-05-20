@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Fengjie, Yilun and Can join the team, warm welcome!
+[Fengjie](https://ff0820.github.io/), [Yilun](https://vida-lab.org/team/) and [Can](https://liucan.me/) join the team, warm welcome!👏👏👏

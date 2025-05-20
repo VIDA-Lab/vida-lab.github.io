@@ -218,6 +218,15 @@ layout: default
   }
 }
 
+/* 深色模式：标题条改成淡色半透明 + 深色文字 */
+@media (prefers-color-scheme: dark) {
+  .pub-title{
+    background: rgba(0,0,0,.4);   /* 浅色半透明蒙版 */
+    color: #fff;                      /* 深色文字，避免发灰 */
+  }
+}
+
+
 /* ≤640 px：标题更小、内边距略减 */
 @media (max-width:640px){
   .pub-title{
