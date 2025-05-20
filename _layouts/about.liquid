@@ -65,6 +65,54 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <div class="recent-pub">
+      <!-- ▼ second gallery: cover-flow ▼ -->
+      <swiper-container
+        class="coverflow-swiper"
+        effect="coverflow"                     
+        loop="true"
+        centered-slides="true"
+        slides-per-view="3"
+        grab-cursor="true"
+        autoplay="true"
+        autoplay-delay="3000"
+        autoplay-disable-on-interaction="false"
+        pagination="true"
+        initial-slide="3"
+
+        coverflow-effect-rotate="50"
+        coverflow-effect-stretch="0"
+        coverflow-effect-depth="100"
+        coverflow-effect-modifier="1"
+        coverflow-effect-slide-shadows="true"
+
+        style="width:100%;height: auto;"
+      >
+        {% assign base = "/assets/img/recentPub/" %}
+        {% for file in page.recentPub %}
+          <swiper-slide>
+            <a
+              href="https://vida-lab.org/publications/"
+              target="_blank"
+              rel="noopener noreferrer">
+            <div class="slide-item">
+              <img
+                src="{{ base | append: file | relative_url }}"
+                alt="{{ site.title }} – slide {{ forloop.index }}"
+              />
+              <div>
+                <h3 class="pub-title">{{ file | split: '.' | first }}</h3>
+                <p>{{ page.recentPubDescription[forloop.index0] }}</p>
+              </div>
+            </div>
+            </a>
+          </swiper-slide>
+        {% endfor %}
+  </div>
+      </swiper-container>
+
+        </div>
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -119,4 +167,52 @@ layout: default
   height: auto;
   object-fit: cover;
 }
+/* add to your custom CSS / SCSS */
+.coverflow-swiper img {
+  width: 100%;          /* each “card” width */
+  height: 200px;
+  object-fit: fill; /* fill, cover, contain */
+  display: block;
+}
+
+.recent-pub {
+  margin: 2em 0;
+}
+/* slide 作为定位上下文 */
+.slide-item { position: relative; }
+
+/* 宽版居中的标题条 */
+.pub-title{
+  position: absolute;
+  bottom: 10%;                     /* 向上抬 80 px */
+  left: 50%;
+  transform: translateX(-50%);      /* 保证真正居中 */
+  width: calc(100% - 2rem);         /* 减去左右各 1 rem 的留白 */
+  
+  /* 视觉样式 */
+  background: rgba(255,255,255,.25);
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+  border-radius: 0.75rem;           /* 圆角矩形 */
+  padding: .45em 1.2em;
+  box-shadow: 0 4px 14px rgba(0,0,0,.25);
+
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  line-height: 1.25;
+  overflow-wrap: anywhere;          /* 长标题也不溢出 */
+}
+
+/* 如果图片普遍偏亮，可改为深色背景 + 浅文字 */
+@media (prefers-color-scheme: light) {
+  .pub-title{
+    background: rgba(0,0,0,.4);
+    color: #fff;
+  }
+}
+
+
+
 </style>
