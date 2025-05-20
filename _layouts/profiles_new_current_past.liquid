@@ -41,10 +41,10 @@ layout: page
                 {% endif %}
               {% endif %}
 
-              <!-- Brief Introduction -->
-              {% if profile.intro %}
+              <!-- Brief Introduction: Hided -->
+              {% comment %} {% if profile.intro %}
                 <p class="profile-intro mb-2">{{ profile.intro }}</p>
-              {% endif %}
+              {% endif %} {% endcomment %}
 
               <!-- Personal Website and Email -->
               <div class="profile-links d-flex justify-content-center align-items-center mt-2">
@@ -52,10 +52,10 @@ layout: page
                   <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
                 {% endif %}
                 {% if profile.email %}
-                  <button class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
+                  <a href="mailto:{{ profile.email }}" class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
                     Email
                     <span class="copy-text">(copy)</span>
-                  </button>
+                  </a>
                 {% endif %}
               </div>
             </div>
@@ -116,10 +116,11 @@ layout: page
                   <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
                 {% endif %}
                 {% if profile.email %}
-                  <button class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
+                  <a href="mailto:{{ profile.email }}"
+                  class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
                     Email
                     <span class="copy-text">(copy)</span>
-                  </button>
+                  </a>
                 {% endif %}
               </div>
             </div>
