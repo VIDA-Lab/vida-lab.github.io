@@ -20,23 +20,23 @@ layout: page
         {% endif %}
 
         <h3 class="achievement-title">
-          {% if ach.link %}
-            <a href="{{ ach.link | relative_url }}">{{ ach.title }}</a>
-          {% else %}
             {{ ach.title }}
-          {% endif %}
         </h3>
 
-
+        {% comment %} used for paper {% endcomment %}
         {% comment %} <p class="achievement-desc">{{ ach.description }}</p> {% endcomment %}
         <p class="achievement-desc">
           {% if ach.link %}
-            <a href="{{ ach.link | relative_url }}">{{ ach.description }}</a>
+            <a href="{{ ach.link | relative_url }}">"{{ ach.paper }}"</a>
           {% else %}
-            {{ ach.description }}
+            "{{ ach.paper }}"
           {% endif %}
         </p>
-         
+
+        {% comment %} used for congrats {% endcomment %}
+        <p class="achievement-desc">
+            {{ ach.description }}
+        </p>
 
         {% if ach.images %}
           <div class="achievement-images">

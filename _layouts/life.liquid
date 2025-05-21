@@ -9,7 +9,7 @@ layout: page
     {% if page.gallery %}
       {% for gallery in sorted_galleries %}
         <section class="gallery-section">
-          <h4>{{ gallery.title }}</h4>
+          <h5>{{ gallery.title }}</h4>
           <p class="post-meta">{{ gallery.date | date: "%B %-d, %Y" }}</p>
           <div class="gallery-description">
             {{ gallery.description }}
