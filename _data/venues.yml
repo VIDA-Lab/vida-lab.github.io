@@ -24,6 +24,11 @@
   url: https://dl.acm.org/conference/chi
   color: "#66c2a5"
 
+"CHI-LBW":
+  url: https://dl.acm.org/conference/chi
+  color: "#86e2c5"
+
+
 "VIS":
     url: https://dblp.org/db/conf/visualization/index.html
     color: "#dd7694"
