@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-team",
           title: "Team",
-          description: "Together, we achieve more than we ever could alone.",
+          description: "Exploring the unknown TOGETHER to shape the future.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/team/";
