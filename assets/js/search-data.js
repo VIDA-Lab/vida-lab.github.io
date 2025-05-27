@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-team",
+  },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-team",
           title: "Team",
           description: "Exploring the unknown TOGETHER to shape the future.",
           section: "Navigation",
@@ -23,19 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-achievements",
-          title: "Achievements",
-          description: "Great achievement always requires great sacrifice.",
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "Big achievements come from embracing challenges with courage.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/achievements/";
-          },
-        },{id: "nav-news",
-          title: "News",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
           },
         },{id: "nav-life-vidalab",
           title: "life@VIDALab",
