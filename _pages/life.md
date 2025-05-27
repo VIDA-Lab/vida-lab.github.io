@@ -4,14 +4,24 @@ permalink: /life/
 title: life@VIDALab
 description: Life is a journey, not a destination.
 nav: true
-nav_order: 5
+nav_order: 6
 
 gallery:
+  
+    
   - title: "Before Jaeuk Fly Back to Korea. Wish you all the best!"
     date: 2025-05
     description: >
     images:
       - Before_Jaeuk_Fly_Back.jpg
+      
+  - title: "Visiting Bukit Timah Summit & Singapore Quarry"
+    date: 2025-05
+    description:
+    images:
+      - Bukit_Timah_Summit_2025.jpg
+      - Bukit_Timah_Summit_2025_2.jpg
+      - Bukit_Timah_Summit_2025_3.jpg
       
   - title: "After IEEE Vis'25 Submission"
     date: 2025-04
@@ -46,20 +56,6 @@ gallery:
     description: >
     images:
       - First_Group_Meeting_With_Kavinda.jpg
-
-  - title: "We ❤️ SMU"
-    date: 2023-10
-    description: >
-    images:
-      - I_love_SMU_1.jpg
-      - I_love_SMU_2.jpg
-
-  - title: "Happy Teachers' Day"
-    date: 2022-09
-    description: >
-    images:
-      - Teachers_Day.jpg
-      - Teachers_Day_2.jpg
 
   - title: "Bukit Timah Summit"
     date: 2022-05
