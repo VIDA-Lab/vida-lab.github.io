@@ -1,8 +1,8 @@
 ---
 layout: achievements
 permalink: /achievements/
-title: Achievements
-description: Great achievement always requires great sacrifice.
+title: Awards
+description: Big achievements come from embracing challenges with courage.
 nav: true
 nav_order: 4
 

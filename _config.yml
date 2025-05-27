@@ -47,13 +47,13 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 1000px #initial: 930px
+max_width: 1200px #initial: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
 

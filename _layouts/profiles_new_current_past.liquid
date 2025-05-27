@@ -5,124 +5,130 @@ layout: page
   <article>
     {% if page.profiles %}
       <!-- Current Members Section -->
-      <h2 class="profiles-title mb-3">Current Members</h2>
+      <h2 class="only-light profiles-title mb-3">Current Members</h2>
+      <h2 class="only-dark profiles-title mt-5 mb-3" style="color: white;">Current Members</h2>
       <div class="profiles-container d-flex flex-wrap justify-content-start">
         {% for profile in page.profiles %}
           {% if profile.status == "current" %}
             <!-- Each profile card -->
             <div class="profile-card m-3 text-center">
-              <!-- Profile image -->
-              {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
-              {% endif %}
-              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-              {% endif %}
-
-              <!-- Name -->
-              {% if profile.name %}
-                <h3 class="profile-name mb-1">{{ profile.name }}</h3>
-              {% endif %}
-
-              <!-- Role -->
-              {% comment %} {% if profile.role %}
-                <p class="profile-role mb-1 text-muted">{{ profile.role }}</p>
-              {% endif %} {% endcomment %}
-
-              <!-- Role and duration -->
-              {% if profile.role %}
-                <p class="profile-role mb-1 text-muted" style="margin-bottom: 0.3rem;">{{ profile.role }}</p>
-                {% if profile.duration %}
-                  <p class="profile-duration mb-2 text-muted" style="font-size: 0.85rem; margin-top: -0.3rem;">{{ profile.duration }}</p>
+              <a href="{{ profile.website }}" target="_blank">
+                <!-- Profile image -->
+                {% if profile.image %}
+                {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
+                {% if profile.image_circular %}
+                  {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
+                {% else %}
+                  {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
                 {% endif %}
-              {% endif %}
-
-              <!-- Brief Introduction: Hided -->
-              {% comment %} {% if profile.intro %}
-                <p class="profile-intro mb-2">{{ profile.intro }}</p>
-              {% endif %} {% endcomment %}
-
-              <!-- Personal Website and Email -->
-              <div class="profile-links d-flex justify-content-center align-items-center mt-2">
-                {% if profile.website %}
-                  <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
+                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
                 {% endif %}
-                {% if profile.email %}
-                  <a href="mailto:{{ profile.email }}" class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
-                    Email
-                    <span class="copy-text">(copy)</span>
-                  </a>
+
+                <!-- Name -->
+                {% if profile.name %}
+                  <h3 class="profile-name mb-1">{{ profile.name }}</h3>
                 {% endif %}
-              </div>
+
+                <!-- Role -->
+                {% comment %} {% if profile.role %}
+                  <p class="profile-role mb-1 text-muted">{{ profile.role }}</p>
+                {% endif %} {% endcomment %}
+
+                <!-- Role and duration -->
+                {% if profile.role %}
+                  <p class="profile-role mb-1 text-muted" style="margin-bottom: 0.3rem;">{{ profile.role }}</p>
+                  {% if profile.duration %}
+                    <p class="profile-duration mb-2 text-muted" style="font-size: 0.85rem; margin-top: -0.3rem;">{{ profile.duration }}</p>
+                  {% endif %}
+                {% endif %}
+
+                <!-- Brief Introduction: Hided -->
+                {% comment %} {% if profile.intro %}
+                  <p class="profile-intro mb-2">{{ profile.intro }}</p>
+                {% endif %} {% endcomment %}
+
+                <!-- Personal Website and Email -->
+                {% comment %} <div class="profile-links d-flex justify-content-center align-items-center mt-2">
+                  {% if profile.website %}
+                    <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
+                  {% endif %}
+                  {% if profile.email %}
+                    <a href="mailto:{{ profile.email }}" class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
+                      Email
+                      <span class="copy-text">(copy)</span>
+                    </a>
+                  {% endif %}
+                </div> {% endcomment %}
+              </a>
             </div>
           {% endif %}
         {% endfor %}
       </div>
 
       <!-- Past Members Section -->
-      <h2 class="profiles-title mt-5 mb-3">Past Members</h2>
+      <h2 class="only-light profiles-title mt-5 mb-3">Past Members</h2>
+      <h2 class="only-dark profiles-title mt-5 mb-3" style="color: white;">Past Members</h2>
       <div class="profiles-container d-flex flex-wrap justify-content-start">
         {% for profile in page.profiles %}
           {% if profile.status == "past" %}
             <!-- Each profile card -->
             <div class="profile-card m-3 text-center">
-              <!-- Profile image -->
-              {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
-              {% endif %}
-              {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-              {% endif %}
-
-              <!-- Name -->
-              {% if profile.name %}
-                <h3 class="profile-name mb-1">{{ profile.name }}</h3>
-              {% endif %}
-
-              <!-- Role and Duration -->
-              {% if profile.role %}
-                <p class="profile-role mb-1 text-muted" style="margin-bottom: 0.3rem;">{{ profile.role }}</p>
-                {% if profile.duration %}
-                  <p class="profile-duration mb-2 text-muted" style="font-size: 0.85rem; margin-top: -0.3rem;">{{ profile.duration }}</p>
+              <a href="{{ profile.website }}" target="_blank">
+                <!-- Profile image -->
+                {% if profile.image %}
+                {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
+                {% if profile.image_circular %}
+                  {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
+                {% else %}
+                  {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
                 {% endif %}
-              {% endif %}
-
-              <!-- Brief Introduction -->
-              {% comment %} {% if profile.intro %}
-                <p class="profile-intro mb-2">{{ profile.intro }}</p>
-              {% endif %} {% endcomment %}
-
-              <!-- Duration -->
-              {% comment %} {% if profile.duration %}
-                <p class="profile-intro mb-2">{{ profile.duration }}</p>
-              {% endif %} {% endcomment %}
-
-              <!-- Current Status -->
-              {% if profile.next %}
-                <p class="profile-intro mb-2">{{ profile.next }}</p>
-              {% endif %}
-
-              <!-- Personal Website and Email -->
-              <div class="profile-links d-flex justify-content-center align-items-center mt-2">
-                {% if profile.website %}
-                  <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
+                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
                 {% endif %}
-                {% if profile.email %}
-                  <a href="mailto:{{ profile.email }}"
-                  class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
-                    Email
-                    <span class="copy-text">(copy)</span>
-                  </a>
+
+                <!-- Name -->
+                {% if profile.name %}
+                  <h3 class="profile-name mb-1">{{ profile.name }}</h3>
                 {% endif %}
-              </div>
+
+                <!-- Role and Duration -->
+                {% if profile.role %}
+                  <p class="profile-role mb-1 text-muted" style="margin-bottom: 0.3rem;">{{ profile.role }}</p>
+                  {% if profile.duration %}
+                    <p class="profile-duration mb-2 text-muted" style="font-size: 0.85rem; margin-top: -0.3rem;">{{ profile.duration }}</p>
+                  {% endif %}
+                {% endif %}
+
+                <!-- Brief Introduction -->
+                {% comment %} {% if profile.intro %}
+                  <p class="profile-intro mb-2">{{ profile.intro }}</p>
+                {% endif %} {% endcomment %}
+
+                <!-- Duration -->
+                {% comment %} {% if profile.duration %}
+                  <p class="profile-intro mb-2">{{ profile.duration }}</p>
+                {% endif %} {% endcomment %}
+
+                <!-- Current Status -->
+                {% if profile.next %}
+                  <p class="profile-intro mb-2">{{ profile.next }}</p>
+                {% endif %}
+
+                <!-- Personal Website and Email -->
+                {% comment %} <div class="profile-links d-flex justify-content-center align-items-center mt-2">
+                  {% if profile.website %}
+                    <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
+                  {% endif %}
+                  {% if profile.email %}
+                    <a href="mailto:{{ profile.email }}"
+                    class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
+                      Email
+                      <span class="copy-text">(copy)</span>
+                    </a>
+                  {% endif %}
+                </div> {% endcomment %}
+              </a>
             </div>
           {% endif %}
         {% endfor %}
