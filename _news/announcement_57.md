@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Visual and Intelligent Data Analytics Lab born at SMU!
+Visualization and Intelligent Data Analytics Lab born at SMU!
