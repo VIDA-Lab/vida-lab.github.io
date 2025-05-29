@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/life/";
           },
+        },{id: "nav-contact-us",
+          title: "Contact Us",
+          description: "We&#39;re always happy to hear from you.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact-us/";
+          },
         },{id: "news-visual-and-intelligent-data-analytics-lab-born-at-smu",
           title: 'Visual and Intelligent Data Analytics Lab born at SMU!',
           description: "",
