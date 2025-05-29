@@ -178,6 +178,7 @@ include:
   - _pages/news.md
   - _pages/life.md
   - _pages/achievements.md
+  - _pages/contact.md
 exclude:
   - bin/
   - CONTRIBUTING.md
