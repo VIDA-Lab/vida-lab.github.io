@@ -8,7 +8,18 @@ nav_order: 7
 
 ---
 <h2><i class = "ti ti-mail"/> Email</h2>
-yong-wang [at] ntu.edu.sg
+<!-- yong-wang [at] ntu.edu.sg -->
+<div style="margin-bottom: 1rem;">
+  <!-- Email with copy functionality -->
+  <a href="mailto:yong-wang@ntu.edu.sg" 
+     onclick="copyToClipboard('yong-wang@ntu.edu.sg')" 
+     class="email-link">
+    yong-wang[at]ntu.edu.sg
+  </a>
+  <span class="copy-status" style="display: none; font-size: 0.85rem; margin-left: 0.5rem; color: green;">
+    Copied to clipboard!
+  </span>
+</div>
 <h2><i class = "ti ti-home"/> Address</h2>
 Visualization and Intelligent Data Analytics Lab, <br>College of Computing and Data Science, <br>Nanyang Technological University,<br>Nanyang Avenue, <br>Singapore 639798
 <h2><i class = "ti ti-map-pin"/> Map</h2>
@@ -41,4 +52,34 @@ Visualization and Intelligent Data Analytics Lab, <br>College of Computing and D
   }
 }
 
+/* Email link styling */
+.email-link {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 </style>
+
+
+<script>
+/* Copy email to clipboard */
+function copyToClipboard(email) {
+  navigator.clipboard.writeText(email).then(() => {
+    // Show a "Copied!" message
+    const copyStatus = document.querySelector('.copy-status');
+    copyStatus.style.display = 'inline';
+    
+    // Hide the message after 2 seconds
+    setTimeout(() => {
+      copyStatus.style.display = 'none';
+    }, 2000);
+  }).catch(err => {
+    console.error('Failed to copy email: ', err);
+  });
+}
+</script>
