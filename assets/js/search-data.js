@@ -51,8 +51,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact-us/";
           },
-        },{id: "news-visual-and-intelligent-data-analytics-lab-born-at-smu",
-          title: 'Visual and Intelligent Data Analytics Lab born at SMU!',
+        },{id: "news-visualization-and-intelligent-data-analytics-lab-born-at-smu",
+          title: 'Visualization and Intelligent Data Analytics Lab born at SMU!',
           description: "",
           section: "News",},{id: "news-early-victories-eurovis-2021-chi-2021-and-a-patented-video-analysis-system-set-a-solid-foundation-for-the-lab-keep-it-up-team",
           title: 'Early victories: EuroVis 2021, CHI 2021 and a patented video-analysis system set a...',
