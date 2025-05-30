@@ -37,12 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/achievements/";
           },
-        },{id: "nav-life-vidalab",
-          title: "life@VIDALab",
+        },{id: "nav-photos",
+          title: "Photos",
           description: "Life is a journey, not a destination.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/life/";
+            window.location.href = "/photos/";
           },
         },{id: "nav-contact-us",
           title: "Contact Us",
