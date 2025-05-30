@@ -194,7 +194,7 @@ profiles:
     website: https://vida-lab.org/team/
     email: Please reach out to the PI to contact the member # Email not provided in the visible content
     duration: 2023.08 - 2023.10 # No duration details provided
-    next: Zhejiang University of Finance & Economics
+    next: ZUFE # Zhejiang University of Finance & Economics
 
   - name: Ribo Yuan
     status: past
