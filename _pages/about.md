@@ -31,15 +31,12 @@ slide:
 
 
 recentPub:
-  - 25-PVIS-TVCG-PrettiSmart.png
-  - 25-TVCG-PonziLens+.png
-  - 24-PVIS-TVCG-VIOLET.png
-  - 24-TVCG-QuantumEyes.png
-  - 24-TVCG-AdaVis.png
-  - 23-CHI-NFTDisk.png
-  - 22-VIS-VACSEN.png
-  - 22-CHI-Vis-Structure-aware Visualization Retrieval.png
-
+  - PrettiSmart.png
+  - PonziLens+.png
+  - VIOLET.png
+  - QuantumEyes.png
+  - AdaVis.png
+  - NFTDisk.png
 
 ---
 
