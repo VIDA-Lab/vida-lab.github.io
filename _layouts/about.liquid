@@ -6,26 +6,16 @@ layout: default
 <div class="post">
   <header class="post-header">
      <div class="clearfix">
-        <div class="slider">
-          <swiper-container
-            class="hero-swiper"
-            loop="true"
-            autoplay="true"
-            autoplay-delay="5000"
-            autoplay-disable-on-interaction="false"
-            pagination="true"
-            style="width:100%; height:auto;"
-          >
+        <div class="hero-image">
+
             {% assign base = "/assets/img/slides/" %}
-            {% for file in page.slide %}
-              <swiper-slide>
+            {% assign file = page.slide %}
+
                 <img
-                  src="{{ base | append: file | relative_url }}"
-                  alt="{{ site.title }} – slide {{ forloop.index }}"
+                  src="{{ base | append: file[0] | relative_url }}"
+                  alt="{{ site.title }} – {{file}}"
                 />
-              </swiper-slide>
-            {% endfor %}
-          </swiper-container>
+
         </div>
 
       <h1 class="post-title">
@@ -113,10 +103,9 @@ layout: default
             </a>
           </swiper-slide>
         {% endfor %}
-  </div>
       </swiper-container>
-
-        </div>
+    </div>
+  </article>
 
 <!-- Recruitment Block Start -->
 <div class="vida-recruitment-block">
@@ -179,14 +168,13 @@ layout: default
 </div>
 
 <style>
-.slider{
-  margin-bottom : 3em;
-}
-.hero-swiper {
+
+.hero-image {
   max-width: 100%;
   margin: 0 auto;
+    margin-bottom : 3em;
 }
-.hero-swiper img {
+.hero-image img {
   display: block;
   width: 100%;
   height: auto;
