@@ -1,7 +1,7 @@
 ---
-layout: life
-permalink: /life/
-title: life@VIDALab
+layout: photos
+permalink: /photos/
+title: Photos
 description: Life is a journey, not a destination.
 nav: true
 nav_order: 6
