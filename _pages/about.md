@@ -28,7 +28,7 @@ latest_posts:
 
 slide:
   - hero1.jpg
-  - hero2.jpg
+
 
 recentPub:
   - 25-PVIS-TVCG-PrettiSmart.png
@@ -51,4 +51,5 @@ recentPub:
 
 [**Visualization and Intelligent Data Analytics Lab (VIDA Lab)**](https://vida-lab.org/) at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/), Singapore--led by [Dr. Yong Wang](https://yong-wang.org/)--is dedicated to advancing the frontiers of Data Visualization, Human-computer Interaction, and Human-centered Artificial Intelligence.
 VIDA Lab focuses on designing novel information visualization techniques and interactive visual analytics systems that convert large, complex datasets into clear, actionable insights, empowering practitioners to explore and decide with confidence.
+
 

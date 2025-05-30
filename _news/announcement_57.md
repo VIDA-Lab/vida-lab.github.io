@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Visualization and Intelligent Data Analytics Lab born at SMU!
+VIDA Lab was born at SMU!

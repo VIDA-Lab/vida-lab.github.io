@@ -118,6 +118,26 @@ layout: default
 
         </div>
 
+<!-- Recruitment Block Start -->
+<div class="vida-recruitment-block">
+  {% comment %} <div class="vida-recruitment-header">
+    🚀 Join VIDA Lab!
+  </div> {% endcomment %}
+  <div class="vida-recruitment-body">
+    We are actively looking for self-motivated and passionate <b>Ph.D./M.Eng students</b>, <b>research assistants</b>, and <b>visiting interns</b> interested in
+    <span class="vida-keywords">Data Visualization</span>,
+    <span class="vida-keywords">Visual Analytics</span>, and
+    <span class="vida-keywords">Human-Computer Interaction</span>.
+    <div class="vida-recruitment-contact">
+      📧 <b>Interested?</b> Email your CV, transcripts, and relevant documents to
+      <a href="mailto:yong-wang@ntu.edu.sg">yong-wang@ntu.edu.sg</a>
+    </div>
+  </div>
+</div>
+<!-- Recruitment Block End -->
+
+
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -235,6 +255,73 @@ layout: default
   }
 }
 
+.vida-recruitment-block {
+  margin: 0.5em 0 1.5em 0; 
+  padding: 0.8rem 1rem 0.8rem 1rem; 
+  background: linear-gradient(90deg, #e0e7ff 0%, #f0fdfa 100%);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.10);
+  border-left: 7px solid #6366f1;
+  border-right: 2px solid #a5b4fc;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+  animation: fadeInRecruit 1.2s;
+}
+.vida-recruitment-header {
+  color: #3730a3;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: .7rem;
+  text-align: left;
+}
+.vida-recruitment-body {
+  font-size: 1rem;
+  color: #22223b;
+  margin-bottom: 0rem;
+  text-align: left;
+}
+.vida-recruitment-body ul {
+  font-size: 1.05rem;
+  color: #373737;
+  margin-bottom: 1rem;
+  padding-left: 1.3em;
+  margin-top: .7em;
+}
+.vida-recruitment-contact {
+  font-size: 1rem;
+  color: #3730a3;
+  margin-top: 0.5em;
+  text-align: left;
+}
+.vida-recruitment-contact a {
+  color: #2563eb;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.vida-keywords {
+  background: #c7d2fe;
+  color: #3730a3;
+  border-radius: 0.4em;
+  padding: 0.08em 0.38em;
+  margin: 0 0.08em;
+  font-weight: 600;
+  font-size: 1em;
+  display: inline-block;
+}
+@media (max-width: 700px) {
+  .vida-recruitment-block {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+  }
+  .vida-recruitment-header {
+    font-size: 1.3rem;
+  }
+}
+@keyframes fadeInRecruit {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: translateY(0);}
+}
 
 
 </style>
