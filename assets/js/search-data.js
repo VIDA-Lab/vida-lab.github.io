@@ -103,7 +103,7 @@ ninja.data = [{
           title: 'Recently, our team had one paper accepted by EuroVis25 and two papers accepted...',
           description: "",
           section: "News",},{id: "news-our-paper-prettismart-won-the-best-paper-honorable-mention-award-at-pacificvis2025-tvcg-track-congratulations-to-xiaolin",
-          title: 'Our paper, PrettiSmart, won the Best Paper Honorable Mention Award🏆 at PacificVis2025(TVCG Track)!...',
+          title: 'Our paper, PrettiSmart, won the Best Paper Honorable Mention Award🏆 at PacificVis2025 (TVCG...',
           description: "",
           section: "News",},{
         id: 'social-email',
