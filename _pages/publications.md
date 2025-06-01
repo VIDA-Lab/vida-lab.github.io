@@ -606,7 +606,243 @@ nav_order: 3
 </div>
 </li>
 </ol>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col col-sm-3 abbr">
+          <abbr class="badge rounded w-100" style="background-color:#dd7694">
+            
+              <a href="https://dblp.org/db/conf/visualization/index.html" rel="external nofollow noopener" target="_blank">VIS</a>
+            
+          </abbr>
+        
+      
+      
+        
+          
+          
 
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/nonuniform-timeslicing.png" class="preview z-depth-1 rounded medium-zoom-image" width="100%" height="auto" alt="nonuniform-timeslicing.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="wang2019nonuniform" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yong
+            Wang, Daniel
+            Archambault, Hammad
+            Haleem, Torsten
+            Moeller, Yanhong
+            Wu, and Huamin
+            Qu
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Proceedings of IEEE VIS 2019 (Short Paper)</em>,  2019
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+      
+      
+      
+        
+          <a href="https://arxiv.org/abs/1907.12015" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-3 abbr">
+          <abbr class="badge rounded w-100">CG&amp;A</abbr>
+        
+      
+      
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/dL-cga.png" class="preview z-depth-1 rounded medium-zoom-image" width="100%" height="auto" alt="dL-cga.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="haleem2019evaluating" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Evaluating the Readability of Force Directed Graph Layouts: A Deep Learning Approach</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Hammad
+            Haleem, Yong
+            Wang, Abishek
+            Puri, Sahil
+            Wadhwa, and Huamin
+            Qu
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>IEEE Computer Graphics and Applications</em>,  2019
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+      
+      
+      
+        
+          <a href="https://arxiv.org/pdf/1808.00703.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
 <ol class="bibliography"><li>
 <div class="row">
   
@@ -721,7 +957,243 @@ nav_order: 3
   </div>
 </div>
 </li></ol>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col col-sm-3 abbr">
+          <abbr class="badge rounded w-100" style="background-color:#4daf4a">
+            
+              <a href="https://onlinelibrary.wiley.com/journal/14678659" rel="external nofollow noopener" target="_blank">CGF</a>
+            
+          </abbr>
+        
+      
+      
+        
+          
+          
 
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/yong-EuroVis18.png" class="preview z-depth-1 rounded medium-zoom-image" width="100%" height="auto" alt="yong-EuroVis18.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="wang2018towards" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Towards Easy Comparison of Local Businesses Using Online Reviews</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Yong
+            Wang, Hammad
+            Haleem, Conglei
+            Shi, Yanhong
+            Wu, Xun
+            Zhao, Siwei
+            Fu, and Huamin
+            Qu
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Computer Graphics Forum (Proceedings of EuroVis 2018)</em>,  2018
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+      
+      
+      
+        
+          <a href="https://yong-wang.org/publication/yong-EuroVis18-paper.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-3 abbr">
+          <abbr class="badge rounded w-100">Micron</abbr>
+        
+      
+      
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/micron18.jpg" class="preview z-depth-1 rounded medium-zoom-image" width="100%" height="auto" alt="micron18.jpg" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="zheng2018fast" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Fast and Robust Segmentation of White Blood Cell Images by Self-supervised Learning</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Xin
+            Zheng, Yong
+            Wang, Guoyou
+            Wang, and Jianguo
+            Liu
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Micron</em>,  2018
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+      
+      
+      
+        
+          <a href="https://yong-wang.org/publication/micron18-paper.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
 <ol class="bibliography"><li>
 <div class="row">
   
@@ -812,6 +1284,122 @@ nav_order: 3
         
       
     </div>
+    
+  </div>
+</div>
+</li></ol>
+<ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col col-sm-3 abbr">
+          <abbr class="badge rounded w-100">IUI</abbr>
+        
+      
+      
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/ui-x-ray-IUI2017.png" class="preview z-depth-1 rounded medium-zoom-image" width="100%" height="auto" alt="ui-x-ray-IUI2017.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="chen2017uixray" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">UI X-Ray: Interactive Mobile UI Testing Based on Computer Vision</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Chun-Fu
+            Chen, Marco
+            Pistoia, Conglei
+            Shi, Paolo
+            Girolami, Joseph W
+            Ligman, and Yong
+            Wang
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Proceedings of the 22nd International Conference on Intelligent User Interfaces (IUI)</em>,  2017
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+      
+      
+      
+      
+        
+          <a href="https://yong-wang.org/images/IUI17_Best_paper.jpg" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+
     
   </div>
 </div>
