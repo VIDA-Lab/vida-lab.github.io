@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-contact-us",
           title: "Contact Us",
-          description: "We&#39;re always happy to hear from you.",
+          description: "We are always happy to hear from you.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/contact-us/";
