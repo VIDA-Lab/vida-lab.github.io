@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Spring surge: seven team papers accepted across CHI LBW, EuroVis, KDD, TKDD, TVCG & more — fantastic collaboration, team! 🌟
+Seven papers accepted across CHI LBW, EuroVis, KDD, TKDD, TVCG & more — fantastic collaboration, team! 🌟

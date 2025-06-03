@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Autumn haul: five new papers across EMNLP, TVCG, PRDC & FinLLM, and NumGPT won the **Technology Novelty Award** — stellar teamwork! 🏆
+Five new papers were accepted by EMNLP, TVCG, PRDC and FinLLM. NumGPT won the **Technology Novelty Award** — stellar teamwork! 🏆

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Breakthrough year: two IEEE VIS 2021 **Best Paper Honorable Mentions** (KG4VIS & M²Lens), multiple TVCG/DATE acceptances, and our first PhD student, [Songheng](https://alexanderzsh.github.io/), joined — bravo team! 🥳
+Our team got two IEEE VIS 2021 **Best Paper Honorable Mentions** (KG4VIS & M²Lens), and our first PhD student, [Songheng](https://alexanderzsh.github.io/), joined! Welcome!🥳

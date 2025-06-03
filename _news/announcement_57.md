@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-VIDA Lab was born at SMU!
+VIDA Lab was founded at SMU!
