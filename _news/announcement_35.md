@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our team received two IEEE VIS 2021 **Best Paper Honorable Mentions Award** 🏅 (KG4VIS & M²Lens)! Congrats!
+Our team received two IEEE VIS 2021 **Best Paper Honorable Mention Award** 🏅 (KG4VIS & M²Lens)! Congrats!
