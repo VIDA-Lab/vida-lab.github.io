@@ -1027,7 +1027,7 @@ nav_order: 3
     
     
     <div class="periodical">
-      <em>In Computer Graphics Forum (Proceedings of EuroVis 2018)</em>,  2018
+      <em>Computer Graphics Forum (Proceedings of EuroVis 2018)</em>,  2018
     </div>
     <div class="periodical">
       
