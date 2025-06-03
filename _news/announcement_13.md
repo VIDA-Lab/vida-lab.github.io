@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-VIOLET was accepted by [PacificVis 2024](https://pacificvis.github.io/pvis2024/) (TVCG Track), capping a six-paper year for the team — way to go! 🚀🚀🚀
+VIOLET was accepted by [PacificVis 2024](https://pacificvis.github.io/pvis2024/) (TVCG Track)! Congrats to Shaolun! 🚀🚀🚀
