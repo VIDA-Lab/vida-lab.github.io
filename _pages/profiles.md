@@ -2,7 +2,7 @@
 layout: profiles_new_current_past
 permalink: /team/
 title: Team
-description: Exploring the unknown TOGETHER to shape the future. # Together, we achieve more than we ever could alone.
+description: Let's explore the unknown TOGETHER to shape the future! # Exploring the unknown TOGETHER to shape the future. # Together, we achieve more than we ever could alone.
 nav: true
 nav_order: 2
 
