@@ -2,7 +2,7 @@
 layout: page
 permalink: /contact-us/
 title: Contact Us
-description: We're always happy to hear from you.
+description: We are always happy to hear from you.
 nav: true
 nav_order: 7
 
@@ -14,7 +14,7 @@ nav_order: 7
   <a href="mailto:yong-wang@ntu.edu.sg" 
      onclick="copyToClipboard('yong-wang@ntu.edu.sg')" 
      class="email-link">
-    yong-wang[at]ntu.edu.sg
+    yong-wang@ntu.edu.sg
   </a>
   <span class="copy-status" style="display: none; font-size: 0.85rem; margin-left: 0.5rem; color: green;">
     Copied to clipboard!
