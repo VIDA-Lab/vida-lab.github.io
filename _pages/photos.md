@@ -43,7 +43,7 @@ gallery:
     images:
       - 2025-Pre-CNY-party.jpg
 
-  - title: "The moment after our IEEE VIS 24 submission."
+  - title: "The happy moment after our IEEE VIS 24 submission."
     date: 2024-04
     description: >
     images:
@@ -59,11 +59,11 @@ gallery:
 
   - title: "The visit to Bukit Timah Summit by VIDA Lab team members."
     date: 2022-05
-    description: "Bukit Timah Hill is the highest natural point in Singapore."
+    description: >
     images:
       - Bukit_Timah_Summit.jpg
 
-  - title: "Team members in front of Marina Bay Sands"
+  - title: "The team’s city walk around Marina Bay Sands."
     date: 2022-06
     description: >
     images:
@@ -87,7 +87,7 @@ gallery:
     images:
       - Welcome_Chen_Yanna.jpg
 
-  - title: "The moment after our CHI 2022 submission."
+  - title: "Happy Hotpot after our CHI 2022 submissions."
     date: 2022-09
     description: >
     images:
