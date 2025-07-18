@@ -120,8 +120,8 @@ ninja.data = [{
           section: "News",},{id: "news-zubair-bashir-joined-our-team-as-visiting-student-welcome",
           title: 'Zubair Bashir joined our team as visiting student! Welcome! 🎉🎉🎉',
           description: "",
-          section: "News",},{id: "news-our-team-has-five-papers-accepted-at-ieee-vis-2025-congratulations-to-shaolun-xiaolin-and-can",
-          title: 'Our team has five papers accepted at IEEE VIS 2025! Congratulations to Shaolun,...',
+          section: "News",},{id: "news-our-team-has-five-papers-four-full-papers-and-one-short-paper-accepted-at-ieee-vis-2025-congratulations-to-shaolun-xiaolin-can-and-other-outstanding-collaborators",
+          title: 'Our team has five papers (four full-papers and one short-paper) accepted at IEEE...',
           description: "",
           section: "News",},{
         id: 'social-email',
