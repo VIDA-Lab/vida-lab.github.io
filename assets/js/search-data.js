@@ -117,6 +117,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-prettismart-won-the-best-paper-honorable-mention-award-at-pacificvis2025-tvcg-track-congratulations-to-xiaolin",
           title: 'Our paper, PrettiSmart, won the Best Paper Honorable Mention Award 🏅 at PacificVis2025...',
           description: "",
+          section: "News",},{id: "news-zubair-bashir-joined-our-team-as-visiting-student-welcome",
+          title: 'Zubair Bashir joined our team as visiting student! Welcome! 🎉🎉🎉',
+          description: "",
+          section: "News",},{id: "news-our-team-has-five-papers-accepted-at-ieee-vis-2025-congratulations-to-shaolun-xiaolin-and-can",
+          title: 'Our team has five papers accepted at IEEE VIS 2025! Congratulations to Shaolun,...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
