@@ -92,17 +92,6 @@ profiles:
     next: XXX
     # content: about_member_test.md
 
-  - name: Kavinda Athapaththu
-    status: current
-    role: Research Engineer
-    intro: Machine Learning, Visualization, Computer Vision, GIS, HCI
-    image: kavinda_athapaththu.jpg
-    image_circular: false
-    website: https://kavinda.lk/
-    email: kavinda.athapaththu@ntu.edu.sg # Email not provided in the source
-    duration: 2024.01 - now # Add duration of the position here if needed
-    next: # Add next position or status here if needed
-
   - name: Fengjie Wang
     status: current # current or past
     role: Research Assistant
@@ -126,6 +115,29 @@ profiles:
     duration: 2025.02 - now
     next: Hangzhou Dianzi University
     # content: about_member_test.md
+
+  - name: Zubair Bashir
+    status: current # current or past
+    role: Visiting Student
+    intro: Human-centered AI, AI Safety
+    image: zubair.jpg # send your photos directly to FF via WeChat
+    image_circular: false # crops the image to make it circular
+    website: https://vida-lab.org/team/
+    email: n2402831f@e.ntu.edu.sg
+    duration: 2025.07 - now
+    next: xxx
+    # content: about_member_test.md
+
+  - name: Kavinda Athapaththu
+    status: past
+    role: Research Engineer
+    intro: Machine Learning, Visualization, Computer Vision, GIS, HCI
+    image: kavinda_athapaththu.jpg
+    image_circular: false
+    website: https://kavinda.lk/
+    email: kavinda.athapaththu@ntu.edu.sg # Email not provided in the source
+    duration: 2024.01 - 2025.07 # Add duration of the position here if needed
+    next: # Add next position or status here if needed
 
   - name: Yilun Fan
     status: past # current or past

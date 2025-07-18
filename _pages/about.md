@@ -31,6 +31,8 @@ slide:
 
 
 recentPub:
+  - Envisage.png
+  - LLM for Design Study.png
   - PrettiSmart.png
   - PonziLens+.png
   - VIOLET.png

@@ -32,3 +32,7 @@
 "VIS":
     url: https://dblp.org/db/conf/visualization/index.html
     color: "#dd7694"
+
+"VIS-short":
+    url: https://dblp.org/db/conf/visualization/index.html
+    color: "#dd7694"
