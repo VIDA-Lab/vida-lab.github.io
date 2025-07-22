@@ -122,7 +122,7 @@ profiles:
     intro: Human-centered AI, AI Safety
     image: zubair.jpg # send your photos directly to FF via WeChat
     image_circular: false # crops the image to make it circular
-    website: https://vida-lab.org/team/
+    website: https://www.linkedin.com/in/zubairb/
     email: n2402831f@e.ntu.edu.sg
     duration: 2025.07 - now
     next: xxx

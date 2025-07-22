@@ -4,4 +4,4 @@ date: 2025-07-01
 inline: true
 related_posts: false
 ---
-[Zubair Bashir]() joined our team as a visiting student! Welcome! 🎉🎉🎉 
+[Zubair Bashir](https://www.linkedin.com/in/zubairb/) joined our team as a visiting student! Welcome! 🎉🎉🎉 
