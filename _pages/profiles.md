@@ -92,15 +92,27 @@ profiles:
     next: XXX
     # content: about_member_test.md
 
-  - name: Fengjie Wang
+  - name: Feng Liang
     status: current # current or past
-    role: Research Assistant
-    intro: Human-notebook interaction, interactive tools for data science
-    image: wangfengjie.jpg
+    role: Master Student
+    intro: Vis for Quantum Computing, AI for QC, AI for Vis
+    image: fengliang.jpg
     image_circular: false # crops the image to make it circular
-    website: https://ff0820.github.io/
-    email: ff11060820@gmail.com
-    duration: 2024.11 - now
+    website: https://fengliang.io
+    email: feng011@e.ntu.edu.sg
+    duration: 2025.08 - now
+    next: XXX
+    # content: about_member_test.md
+
+  - name: Zhengyu Sun
+    status: current # current or past
+    role: Master Student
+    intro: Visualization and Human-Computer Interaction 
+    image: zhengyusun.jpg
+    image_circular: false # crops the image to make it circular
+    website: https://szyssssss.github.io
+    email: zhengyu003@e.ntu.edu.sg 
+    duration: 2025.08 - now
     next: XXX
     # content: about_member_test.md
 
@@ -126,6 +138,19 @@ profiles:
     email: n2402831f@e.ntu.edu.sg
     duration: 2025.07 - now
     next: xxx
+    # content: about_member_test.md
+
+
+  - name: Fengjie Wang
+    status: past # current or past
+    role: Research Assistant
+    intro: Human-notebook interaction, interactive tools for data science
+    image: wangfengjie.jpg
+    image_circular: false # crops the image to make it circular
+    website: https://ff0820.github.io/
+    email: ff11060820@gmail.com
+    duration: 2024.11 - 2025.07
+    next: HKUST
     # content: about_member_test.md
 
   - name: Kavinda Athapaththu
