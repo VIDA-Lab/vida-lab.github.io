@@ -123,6 +123,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-team-has-five-papers-four-full-papers-and-one-short-paper-accepted-at-ieee-vis-2025-congratulations-to-shaolun-xiaolin-can-and-other-outstanding-collaborators",
           title: 'Our team has five papers (four full-papers and one short-paper) accepted at IEEE...',
           description: "",
+          section: "News",},{id: "news-we-re-excited-to-welcome-niruthikka-and-nishaanthini-as-new-phd-students-and-feng-sizhe-and-zhengyu-as-new-master-s-students-to-our-team",
+          title: 'We’re excited to welcome Niruthikka and Nishaanthini as new PhD students, and Feng,...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
