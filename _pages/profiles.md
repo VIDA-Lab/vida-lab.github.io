@@ -69,6 +69,28 @@ profiles:
     duration: 2023.08 - now
     next: # Add next position or status here if needed
 
+  - name: Sritharan Niruthikka
+    status: current
+    role: Ph.D. student
+    intro: Visualization and Human-Computer Interaction
+    image: niru.jpg
+    image_circular: false
+    website: 
+    email: SR0001KA@e.ntu.edu.sg
+    duration: 2025.08 - now
+    next: # Add next position or status here if needed
+
+  - name: Gnanavel Nishaanthini 
+    status: current
+    role: Ph.D. student
+    intro: Visualization and Human-Computer Interaction
+    image: nisha.jpg
+    image_circular: false
+    website: 
+    email: GN0001NI@e.ntu.edu.sg 
+    duration: 2025.08 - now
+    next: # Add next position or status here if needed
+
   - name: Songheng Zhang
     status: current
     role: Ph.D. Candidate
