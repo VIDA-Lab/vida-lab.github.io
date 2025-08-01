@@ -138,6 +138,18 @@ profiles:
     next: XXX
     # content: about_member_test.md
 
+  - name: Sizhe Cheng
+    status: current # current or past
+    role: Master Student
+    intro: Human-Computer Interaction and Viaual Analytics 
+    image: sizhecheng.jpg
+    image_circular: false # crops the image to make it circular
+    website: https://p.pekka.asia
+    email: sizhe003@e.ntu.edu.sg
+    duration: 2025.08 - now
+    next: XXX
+    # content: about_member_test.md
+
   - name: Fengling Zheng
     status: current # current or past
     role: Visiting Student
