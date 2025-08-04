@@ -126,6 +126,9 @@ ninja.data = [{
           section: "News",},{id: "news-we-re-excited-to-welcome-niruthikka-and-nishaanthini-as-new-phd-students-and-feng-sizhe-and-zhengyu-as-new-master-s-students-to-our-team",
           title: 'We’re excited to welcome Niruthikka and Nishaanthini as new PhD students, and Feng,...',
           description: "",
+          section: "News",},{id: "news-our-vis2025-paper-qualitative-study-for-llm-assisted-design-study-process-strategies-challenges-and-roles-has-received-the-ieee-vis-2025-best-paper-honorable-mention-award-congratulations-to-shaolun-xiaolin-and-all-the-co-authors",
+          title: 'Our VIS2025 paper, “Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
