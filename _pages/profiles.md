@@ -75,7 +75,7 @@ profiles:
     intro: Visualization and Human-Computer Interaction
     image: niru.jpg
     image_circular: false
-    website: 
+    website: https://niruthikka24.github.io/
     email: SR0001KA@e.ntu.edu.sg
     duration: 2025.08 - now
     next: # Add next position or status here if needed
