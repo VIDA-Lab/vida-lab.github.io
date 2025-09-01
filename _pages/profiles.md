@@ -86,7 +86,7 @@ profiles:
     intro: Visualization and Human-Computer Interaction
     image: nisha.jpg
     image_circular: false
-    website: 
+    website: https://gnishaanthini.github.io/
     email: GN0001NI@e.ntu.edu.sg 
     duration: 2025.08 - now
     next: # Add next position or status here if needed
@@ -144,23 +144,12 @@ profiles:
     intro: Human-Computer Interaction and Viaual Analytics 
     image: sizhecheng.jpg
     image_circular: false # crops the image to make it circular
-    website: https://p.pekka.asia
+    website: https://chengsz.pekka.asia
     email: sizhe003@e.ntu.edu.sg
     duration: 2025.08 - now
     next: XXX
     # content: about_member_test.md
 
-  - name: Fengling Zheng
-    status: current # current or past
-    role: Visiting Student
-    intro: Visualization & Human-Computer Interaction, Knowledge Graph
-    image: zhengfengling.jpg # send your photos directly to FF via WeChat
-    image_circular: false # crops the image to make it circular
-    website: https://vida-lab.org/team/
-    email: zhengfglg@gmail.com
-    duration: 2025.02 - now
-    next: Hangzhou Dianzi University
-    # content: about_member_test.md
 
   - name: Zubair Bashir
     status: current # current or past
@@ -174,6 +163,17 @@ profiles:
     next: xxx
     # content: about_member_test.md
 
+  - name: Fengling Zheng
+    status: past # current or past
+    role: Visiting Student
+    intro: Visualization & Human-Computer Interaction, Knowledge Graph
+    image: zhengfengling.jpg # send your photos directly to FF via WeChat
+    image_circular: false # crops the image to make it circular
+    website: https://vida-lab.org/team/
+    email: zhengfglg@gmail.com
+    duration: 2025.02 - now
+    next: Hangzhou Dianzi University
+    # content: about_member_test.md
 
   - name: Fengjie Wang
     status: past # current or past
