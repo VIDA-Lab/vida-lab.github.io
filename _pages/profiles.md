@@ -36,6 +36,7 @@ profiles:
     # content: about_member_test.md
 
 - name: Shiyu Cheng
+  - name: Shiyu Cheng
     status: current
     role: Visiting Postdoc
     intro: Visual Analytics for Scientific Simulation and Knowledge Discovery
@@ -45,7 +46,7 @@ profiles:
     email: chengnico@outlook.com
     duration: 2025.9 - now
     next: Computer Network Information Center, Chinese Academy of Sciences
-    
+
   - name: Xiaolin Wen
     status: current # current or past
     role: Ph.D. Student
