@@ -159,7 +159,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: https://www.linkedin.com/in/zubairb/
     email: n2402831f@e.ntu.edu.sg
-    duration: 2025.07 - now
+    duration: 2025.07 - 2025.09
     next: xxx
     # content: about_member_test.md
 
@@ -171,7 +171,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: https://vida-lab.org/team/
     email: zhengfglg@gmail.com
-    duration: 2025.02 - now
+    duration: 2025.02 - 2025.08
     next: Hangzhou Dianzi University
     # content: about_member_test.md
 
