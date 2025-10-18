@@ -152,7 +152,7 @@ profiles:
 
 
   - name: Zubair Bashir
-    status: current # current or past
+    status: past # current or past
     role: Visiting Student
     intro: Human-centered AI, AI Safety
     image: zubair.jpg # send your photos directly to FF via WeChat
