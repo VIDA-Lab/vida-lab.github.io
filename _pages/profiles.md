@@ -35,6 +35,17 @@ profiles:
     next: XXX
     # content: about_member_test.md
 
+- name: Shiyu Cheng
+    status: current
+    role: Visiting Postdoc
+    intro: Visual Analytics for Scientific Simulation and Knowledge Discovery
+    image: csy.jpg
+    image_circular: false
+    website: https://orangecsy.github.io
+    email: chengnico@outlook.com
+    duration: 2025.9 - now
+    next: Computer Network Information Center, Chinese Academy of Sciences
+    
   - name: Xiaolin Wen
     status: current # current or past
     role: Ph.D. Student
