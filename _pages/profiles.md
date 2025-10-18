@@ -35,7 +35,6 @@ profiles:
     next: XXX
     # content: about_member_test.md
 
-- name: Shiyu Cheng
   - name: Shiyu Cheng
     status: current
     role: Visiting Postdoc
