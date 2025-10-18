@@ -160,7 +160,7 @@ profiles:
     website: https://www.linkedin.com/in/zubairb/
     email: n2402831f@e.ntu.edu.sg
     duration: 2025.07 - 2025.09
-    next: xxx
+    next: 
     # content: about_member_test.md
 
   - name: Fengling Zheng
