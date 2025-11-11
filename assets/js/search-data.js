@@ -138,6 +138,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-group-will-present-seven-papers-at-ieee-vis-2025-looking-forward-to-meeting-everyone-at-the-conference-and-exchanging-ideas",
           title: 'Our group will present seven papers at IEEE VIS 2025! 🎉 Looking forward...',
           description: "",
+          section: "News",},{id: "news-congratulations-to-prof-yong-wang-for-receiving-the-2025-ieee-vgtc-visualization-significant-new-researcher-award-this-award-recognizes-his-outstanding-contributions-to-applied-visualization-research-especially-in-the-areas-of-vis-ai-and-quantum-computing",
+          title: '🎉 Congratulations to Prof. Yong Wang for receiving the 2025 IEEE VGTC Visualization...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
