@@ -113,6 +113,17 @@ profiles:
     duration: 2021.08 - now
     next: RICE Lab (Tony Tang), Singapore Management University (2024)
 
+  - name: Tengteng Zhu
+    status: current
+    role: Visiting Ph.D Student
+    intro: Visual Analytics for Robust Training and Fast Training in Distributed Machine Learning    
+    image: tengtengzhu.png
+    image_circular: false
+    website: https://vida-lab.org/team/
+    email: N2505652B@e.ntu.edu.sg
+    duration: 2025.11 - now
+    next: School of Automation, Beijing Institute of Technology
+
   - name: Shiwei Chen
     status: current # current or past
     role: Master Student
