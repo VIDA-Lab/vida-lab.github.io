@@ -7,7 +7,12 @@ nav: true
 nav_order: 6
 
 gallery:
-  
+  - title: "Our team joined IEEE VIS 2025 — congratulations to Prof. Yong Wang for receiving the IEEE VGTC Visualization Significant New Researcher Award! 🎉🏅"
+    date: 2025-11
+    description: >
+    images:
+      - vis2025_1.png
+      - vis2025_2.png
     
   - title: "The last group seminar before Jaeuk flied back to South Korea. All the best!"
     date: 2025-05
