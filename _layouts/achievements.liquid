@@ -25,18 +25,20 @@ layout: page
 
         {% comment %} used for paper {% endcomment %}
         {% comment %} <p class="achievement-desc">{{ ach.description }}</p> {% endcomment %}
-        <p class="achievement-desc">
-          {% if ach.link %}
-            <a href="{{ ach.link | relative_url }}">"{{ ach.paper }}"</a>
-          {% else %}
-            "{{ ach.paper }}"
-          {% endif %}
-        </p>
+        {% if ach.paper != blank %}
+          <p class="achievement-desc">
+            {% if ach.link %}
+              <a href="{{ ach.link | relative_url }}">"{{ ach.paper }}"</a>
+            {% else %}
+              "{{ ach.paper }}"
+            {% endif %}
+          </p>
+        {% endif %}
 
         {% comment %} used for congrats {% endcomment %}
-        <p class="achievement-desc">
-            {{ ach.description }}
-        </p>
+        <div class="achievement-desc">
+            {{ ach.description | markdownify }}
+        </div>
 
         {% if ach.images %}
           <div class="achievement-images">

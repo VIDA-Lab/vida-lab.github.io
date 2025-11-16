@@ -9,8 +9,8 @@ nav_order: 4
 achievements:
   - title: "2025 VGTC Visualization Significant New Researcher Award "
     date: "2025-11"
-    paper: "Yong Wang"
-    description: "Congrats to Prof. Yong Wang and the team!"
+    paper: 
+    description: "[Prof. Yong Wang](https://yong-wang.org/) has awarded the [2025 VGTC Visualization Significant New Researcher Award](https://vida-lab.org/achievements/). Congratulations to Prof. Yong Wang and the team!"
     link: "https://yong-wang.org/"
     images:
       - 2025_VGTC_New_Researcher_Award.png
@@ -23,6 +23,14 @@ achievements:
     images:
       - vis25_best_honorable_mention_1.png
       - vis25_best_honorable_mention_2.png
+
+  - title: "2025 Google PhD Fellowship in Quantum Computing "
+    date: "2025-09"
+    paper: 
+    description: "[Shaolun Ruan](https://shaolun-ruan.com/) has received [2025 Google PhD Fellowship in Quantum Computing](https://research.google/programs-and-events/phd-fellowship/recipients/)! Congratulations to Shaolun and the team!"
+    link: "https://research.google/programs-and-events/phd-fellowship/recipients/"
+    images:
+      - google_phd_award_shaolun.png
 
   - title: "Honorable Mention Award from IEEE Pacific Visualization Conference (PacificVis2025 Journal Track)"
     date: "2025-04"

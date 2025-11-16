@@ -7,61 +7,109 @@ layout: page
       <!-- Current Members Section -->
       <h2 class="only-light profiles-title mb-3">Current Members</h2>
       <h2 class="only-dark profiles-title mt-5 mb-3" style="color: white;">Current Members</h2>
+
+      <!-- Faculty & Postdocs -->
+      <h3 class="profiles-subtitle mt-3 mb-2">Faculty & Postdocs</h3>
       <div class="profiles-container d-flex flex-wrap justify-content-start">
         {% for profile in page.profiles %}
           {% if profile.status == "current" %}
-            <!-- Each profile card -->
+          {% unless profile.role contains "Visiting" %}
+          {% if profile.role contains "Professor" or profile.role contains "Postdoc" %}
             <div class="profile-card m-3 text-center">
               <a href="{{ profile.website }}" target="_blank">
-                <!-- Profile image -->
                 {% if profile.image %}
-                {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
-                {% if profile.image_circular %}
-                  {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
-                {% else %}
-                  {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
+                  {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
+                  {% if profile.image_circular %}
+                    {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
+                  {% else %}
+                    {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
+                  {% endif %}
+                  {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                  {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
                 {% endif %}
-                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-                {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-                {% endif %}
-
-                <!-- Name -->
                 {% if profile.name %}
                   <h3 class="profile-name mb-1">{{ profile.name }}</h3>
                 {% endif %}
-
-                <!-- Role -->
-                {% comment %} {% if profile.role %}
-                  <p class="profile-role mb-1 text-muted">{{ profile.role }}</p>
-                {% endif %} {% endcomment %}
-
-                <!-- Role and duration -->
                 {% if profile.role %}
                   <p class="profile-role mb-1 text-muted" style="margin-bottom: 0.3rem;">{{ profile.role }}</p>
                   {% if profile.duration %}
                     <p class="profile-duration mb-2 text-muted" style="font-size: 0.85rem; margin-top: -0.3rem;">{{ profile.duration }}</p>
                   {% endif %}
                 {% endif %}
-
-                <!-- Brief Introduction: Hided -->
-                {% comment %} {% if profile.intro %}
-                  <p class="profile-intro mb-2">{{ profile.intro }}</p>
-                {% endif %} {% endcomment %}
-
-                <!-- Personal Website and Email -->
-                {% comment %} <div class="profile-links d-flex justify-content-center align-items-center mt-2">
-                  {% if profile.website %}
-                    <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
-                  {% endif %}
-                  {% if profile.email %}
-                    <a href="mailto:{{ profile.email }}" class="btn btn-link p-0 text-primary mx-2 email-button" onclick="copyToClipboard('{{ profile.email }}')">
-                      Email
-                      <span class="copy-text">(copy)</span>
-                    </a>
-                  {% endif %}
-                </div> {% endcomment %}
               </a>
             </div>
+          {% endif %}
+          {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Full-time Students -->
+      <h3 class="profiles-subtitle mt-4 mb-2">Full-time Students</h3>
+      <div class="profiles-container d-flex flex-wrap justify-content-start">
+        {% for profile in page.profiles %}
+          {% if profile.status == "current" %}
+          {% unless profile.role contains "Visiting" %}
+          {% if profile.role contains "Ph.D" or profile.role contains "Master" or profile.role contains "Student" %}
+            <div class="profile-card m-3 text-center">
+              <a href="{{ profile.website }}" target="_blank">
+                {% if profile.image %}
+                  {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
+                  {% if profile.image_circular %}
+                    {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
+                  {% else %}
+                    {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
+                  {% endif %}
+                  {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                  {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                {% endif %}
+                {% if profile.name %}
+                  <h3 class="profile-name mb-1">{{ profile.name }}</h3>
+                {% endif %}
+                {% if profile.role %}
+                  <p class="profile-role mb-1 text-muted" style="margin-bottom: 0.3rem;">{{ profile.role }}</p>
+                  {% if profile.duration %}
+                    <p class="profile-duration mb-2 text-muted" style="font-size: 0.85rem; margin-top: -0.3rem;">{{ profile.duration }}</p>
+                  {% endif %}
+                {% endif %}
+              </a>
+            </div>
+          {% endif %}
+          {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Visiting Members -->
+      <h3 class="profiles-subtitle mt-4 mb-2">Visiting Members</h3>
+      <div class="profiles-container d-flex flex-wrap justify-content-start">
+        {% for profile in page.profiles %}
+          {% if profile.status == "current" %}
+          {% if profile.role contains "Visiting" %}
+            <div class="profile-card m-3 text-center">
+              <a href="{{ profile.website }}" target="_blank">
+                {% if profile.image %}
+                  {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
+                  {% if profile.image_circular %}
+                    {% assign profile_image_class = 'img-fluid rounded-circle fixed-size' %}
+                  {% else %}
+                    {% assign profile_image_class = 'img-fluid rounded fixed-size' %}
+                  {% endif %}
+                  {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                  {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                {% endif %}
+                {% if profile.name %}
+                  <h3 class="profile-name mb-1">{{ profile.name }}</h3>
+                {% endif %}
+                {% if profile.role %}
+                  <p class="profile-role mb-1 text-muted" style="margin-bottom: 0.3rem;">{{ profile.role }}</p>
+                  {% if profile.duration %}
+                    <p class="profile-duration mb-2 text-muted" style="font-size: 0.85rem; margin-top: -0.3rem;">{{ profile.duration }}</p>
+                  {% endif %}
+                {% endif %}
+              </a>
+            </div>
+          {% endif %}
           {% endif %}
         {% endfor %}
       </div>
@@ -153,15 +201,30 @@ layout: page
     padding-bottom: 0.5rem;
   }
 
+  .profiles-subtitle {
+    font-size: 1rem; /* smaller classification headings */
+    font-weight: 600;
+    color: #555;
+    letter-spacing: 0.1px;
+    margin-left: 1rem; /* align with first card's left margin */
+  }
+
   .profile-card {
     max-width: 200px; /* Adjusted width for a better layout */
     width: 100%; /* Ensure the card takes full width when necessary */
     text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    border: 1px solid #eee;
+    border-radius: 12px;
     padding: 0.75rem;
     padding-bottom: 0.25rem;
-    background-color: #f9f9f9;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+  }
+
+  .profile-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   }
 
   .profile-image img {

@@ -46,18 +46,6 @@ profiles:
     duration: 2025.9 - now
     next: Computer Network Information Center, Chinese Academy of Sciences
 
-  - name: Xiaolin Wen
-    status: current # current or past
-    role: Ph.D. Student
-    intro: Visualization and Human-Computer Interaction
-    image: wenxiaolin.jpg
-    image_circular: false # crops the image to make it circular
-    website: https://wenxiaolin.com/
-    email: xiaolin004@e.ntu.edu.sg
-    duration: 2025.01 - now
-    next: XXX
-    # content: about_member_test.md
-
   - name: Shaolun Ruan
     status: current
     role: Ph.D. Candidate
@@ -79,6 +67,18 @@ profiles:
     email: gmik.vidana.2023@phdcs.smu.edu.sg
     duration: 2023.08 - now
     next: # Add next position or status here if needed
+
+  - name: Xiaolin Wen
+    status: current # current or past
+    role: Ph.D. Student
+    intro: Visualization and Human-Computer Interaction
+    image: wenxiaolin.jpg
+    image_circular: false # crops the image to make it circular
+    website: https://wenxiaolin.com/
+    email: xiaolin004@e.ntu.edu.sg
+    duration: 2025.01 - now
+    next: XXX
+    # content: about_member_test.md
 
   - name: Sritharan Niruthikka
     status: current
