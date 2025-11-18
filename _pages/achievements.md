@@ -10,12 +10,12 @@ achievements:
   - title: "2025 VGTC Visualization Significant New Researcher Award "
     date: "2025-11"
     paper: 
-    description: "[Prof. Yong Wang](https://yong-wang.org/) has awarded the [2025 VGTC Visualization Significant New Researcher Award](https://vida-lab.org/achievements/). Congratulations to Prof. Yong Wang and the team!"
+    description: "[Prof. Yong Wang](https://yong-wang.org/) won the [2025 VGTC Visualization Significant New Researcher Award](https://vida-lab.org/achievements/). Congratulations to Prof. Yong Wang and the team!"
     link: "https://yong-wang.org/"
     images:
       - 2025_VGTC_New_Researcher_Award.png
 
-  - title: "Honorable Mention Award from IEEE Visualization Conference (VIS2025)"
+  - title: "Best Paper Honorable Mention Award at IEEE Visualization Conference (VIS2025)"
     date: "2025-11"
     paper: "Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles"
     description: "Congrats to Shaolun, Xiaolin, and the team!"
@@ -27,12 +27,12 @@ achievements:
   - title: "2025 Google PhD Fellowship in Quantum Computing "
     date: "2025-09"
     paper: 
-    description: "[Shaolun Ruan](https://shaolun-ruan.com/) has received [2025 Google PhD Fellowship in Quantum Computing](https://research.google/programs-and-events/phd-fellowship/recipients/)! Congratulations to Shaolun and the team!"
+    description: "[Shaolun Ruan](https://shaolun-ruan.com/) received [2025 Google PhD Fellowship in Quantum Computing](https://research.google/programs-and-events/phd-fellowship/recipients/)! Congratulations to Shaolun and the team!"
     link: "https://research.google/programs-and-events/phd-fellowship/recipients/"
     images:
       - google_phd_award_shaolun.png
 
-  - title: "Honorable Mention Award from IEEE Pacific Visualization Conference (PacificVis2025 Journal Track)"
+  - title: "Best Paper Honorable Mention Award from IEEE Pacific Visualization Conference (PacificVis2025 Journal Track)"
     date: "2025-04"
     paper: "PrettiSmart: Visual Interpretation of Smart Contracts via Simulation"
     description: "Congrats to Xiaolin and the team!"

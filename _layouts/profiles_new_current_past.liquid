@@ -8,13 +8,13 @@ layout: page
       <h2 class="only-light profiles-title mb-3">Current Members</h2>
       <h2 class="only-dark profiles-title mt-5 mb-3" style="color: white;">Current Members</h2>
 
-      <!-- Faculty & Postdocs -->
-      <h3 class="profiles-subtitle mt-3 mb-2">Faculty & Postdocs</h3>
+      <!-- Principal investigator -->
+      <h3 class="profiles-subtitle mt-3 mb-2">Principal investigator</h3>
       <div class="profiles-container d-flex flex-wrap justify-content-start">
         {% for profile in page.profiles %}
           {% if profile.status == "current" %}
           {% unless profile.role contains "Visiting" %}
-          {% if profile.role contains "Professor" or profile.role contains "Postdoc" %}
+          {% if profile.role contains "Professor" %}
             <div class="profile-card m-3 text-center">
               <a href="{{ profile.website }}" target="_blank">
                 {% if profile.image %}
@@ -50,7 +50,7 @@ layout: page
         {% for profile in page.profiles %}
           {% if profile.status == "current" %}
           {% unless profile.role contains "Visiting" %}
-          {% if profile.role contains "Ph.D" or profile.role contains "Master" or profile.role contains "Student" %}
+          {% if profile.role contains "Ph.D" or profile.role contains "Master" or profile.role contains "Student" or profile.role contains "Postdoc" %}
             <div class="profile-card m-3 text-center">
               <a href="{{ profile.website }}" target="_blank">
                 {% if profile.image %}
