@@ -141,6 +141,9 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-prof-yong-wang-for-receiving-the-2025-ieee-vgtc-visualization-significant-new-researcher-award-this-award-recognizes-his-outstanding-contributions-to-applied-visualization-research-especially-in-the-areas-of-vis-ai-and-quantum-computing",
           title: '🎉 Congratulations to Prof. Yong Wang for receiving the 2025 IEEE VGTC Visualization...',
           description: "",
+          section: "News",},{id: "news-we-re-delighted-to-welcome-tengteng-zhu-to-our-team-as-a-visiting-phd-student",
+          title: 'We’re delighted to welcome Tengteng Zhu to our team as a Visiting PhD...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
