@@ -154,7 +154,7 @@ profiles:
     intro: Visualization and Human-Computer Interaction 
     image: zhengyusun.jpg
     image_circular: false # crops the image to make it circular
-    website: https://szyssssss.github.io
+    website: https://zhengyu-sun.github.io
     email: zhengyu003@e.ntu.edu.sg 
     duration: 2025.08 - now
     next: XXX
