@@ -46,16 +46,6 @@ profiles:
     duration: 2025.9 - now
     next: Computer Network Information Center, Chinese Academy of Sciences
 
-  - name: Shaolun Ruan
-    status: current
-    role: Ph.D. Candidate
-    intro: Data Visualization, Human-Computer Interaction
-    image: shaolun_ruan.jpg
-    image_circular: false
-    website: https://shaolun-ruan.com/
-    email: shaolun.ruan@monash.edu
-    duration: 2022.01 - now
-    next: Research Scholar, Monash University, Australia (2025)
   
   - name: Manusha Karunathilaka
     status: current
@@ -124,6 +114,28 @@ profiles:
     duration: 2025.11 - now
     next: School of Automation, Beijing Institute of Technology
 
+  - name: Shixian Zhou
+    status: current
+    role: Visiting Student
+    intro: Visual Analytics    
+    image: shixianzhou.png
+    image_circular: false
+    website: https://vida-lab.org/team/
+    email: xxx
+    duration: 2026.01 - 2026.04
+    next: xxx
+
+  - name: Ruiqi Yu
+    status: current
+    role: Visiting Student
+    intro: Visual Analytics    
+    image: ruiqiyu.png
+    image_circular: false
+    website: https://yriccch.github.io/#/
+    email: xxx
+    duration: 2026.01 - 2026.04
+    next: xxx
+
   - name: Shiwei Chen
     status: current # current or past
     role: Master Student
@@ -172,6 +184,16 @@ profiles:
     next: XXX
     # content: about_member_test.md
 
+  - name: Shaolun Ruan
+    status: past
+    role: Ph.D
+    intro: Data Visualization, Human-Computer Interaction
+    image: shaolun_ruan.jpg
+    image_circular: false
+    website: https://shaolun-ruan.com/
+    email: shaolun.ruan@monash.edu
+    duration: 2022.01 - 2026.01
+    next: 
 
   - name: Zubair Bashir
     status: past # current or past

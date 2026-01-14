@@ -7,6 +7,12 @@ nav: true
 nav_order: 6
 
 gallery:
+  - title: "Shaolun Ruan successfully graduated with a PhD degree from Singapore Management University (SMU). We warmly congratulate him on this important milestone and wish him all the best in his next chapter! 🎉🎉"
+    date: 2026-01
+    description: >
+    images:
+      - Shaolun-Graduate.png
+    
   - title: "Our team attended IEEE VIS 2025 — congratulations to Prof. Yong Wang for receiving the IEEE VGTC Visualization Significant New Researcher Award! 🎉🏅"
     date: 2025-11
     description: >
