@@ -144,6 +144,9 @@ ninja.data = [{
           section: "News",},{id: "news-we-re-delighted-to-welcome-tengteng-zhu-to-our-team-as-a-visiting-phd-student",
           title: 'We’re delighted to welcome Tengteng Zhu to our team as a Visiting PhD...',
           description: "",
+          section: "News",},{id: "news-shaolun-ruan-has-successfully-graduated-with-a-phd-degree-from-singapore-management-university-smu-we-warmly-congratulate-him-on-this-important-milestone-and-wish-him-all-the-best-in-his-next-chapter",
+          title: 'Shaolun Ruan has successfully graduated with a PhD degree from Singapore Management University...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
