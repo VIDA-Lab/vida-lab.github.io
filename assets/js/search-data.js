@@ -147,6 +147,12 @@ ninja.data = [{
           section: "News",},{id: "news-shaolun-ruan-has-successfully-graduated-with-a-phd-degree-from-singapore-management-university-smu-we-warmly-congratulate-him-on-this-important-milestone-and-wish-him-all-the-best-in-his-next-chapter",
           title: 'Shaolun Ruan has successfully graduated with a PhD degree from Singapore Management University...',
           description: "",
+          section: "News",},{id: "news-we-are-thrilled-to-share-that-our-team-has-five-accepted-papers-bait-and-hypermooc-at-chi-2026-compendia-and-explainable-quantum-ai-at-ieee-tvcg-and-athanor-at-pacificvis-2026-congratulations-to-all-team-members-on-this-fantastic-achievement",
+          title: 'We are thrilled to share that our team has five accepted papers: BAIT...',
+          description: "",
+          section: "News",},{id: "news-we-are-excited-to-welcome-arsenii-as-a-visiting-student-to-our-team",
+          title: 'We are excited to welcome Arsenii as a Visiting Student to our team!...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
