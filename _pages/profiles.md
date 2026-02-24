@@ -136,6 +136,19 @@ profiles:
     duration: 2026.01 - 2026.04
     next: xxx
 
+
+  - name: Arsenii Galaida
+    status: current
+    role: Visiting Student
+    intro: Visualization for Explainable LLMs   
+    image: arsenii.png
+    image_circular: false
+    website: https://github.com/ArseniiGalaida
+    email: galaida.arseniy@gmail.com
+    duration: 2026.02 - now
+    next: xxx
+
+
   - name: Shiwei Chen
     status: current # current or past
     role: Master Student
