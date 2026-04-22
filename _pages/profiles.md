@@ -113,6 +113,28 @@ profiles:
     email: N2505652B@e.ntu.edu.sg
     duration: 2025.11 - now
     next: School of Automation, Beijing Institute of Technology
+  
+  - name: Kai Yin
+    status: current
+    role: Visiting Ph.D Student
+    intro: Interactive Data Visualization and Analytics for Intelligent Security    
+    image: yinkai.jpg
+    image_circular: false
+    website: https://vida-lab.org/team/
+    email: neokaiy@outlook.com
+    duration: 2026.03 - now
+    next: Xidian University
+  
+  - name: Nanyi Wang
+    status: current
+    role: Visiting Ph.D Student
+    intro: Human Robot Interaction, Human factor，Mutimodal Human Computer Interaction    
+    image: nanyi.jpg
+    image_circular: false
+    website: https://vida-lab.org/team/
+    email: N2505962F@e.ntu.edu.sg
+    duration: 2026.04 - now
+    next: Beijing Institute of Technology
 
   - name: Shixian Zhou
     status: current
