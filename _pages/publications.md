@@ -33,8 +33,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -58,7 +56,6 @@ nav_order: 3
     <div class="title">DeepDrawing: A Deep Learning Approach to Graph Drawing</div>
     <!-- Author -->
     <div class="author">
-
 
       Yong
             Wang, Zhihua
@@ -110,19 +107,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -138,8 +122,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -163,7 +145,6 @@ nav_order: 3
     <div class="title">PlanningVis: A Visual Analytics Approach to Production Planning in Smart Factories</div>
     <!-- Author -->
     <div class="author">
-
 
       Dong
             Sun, Renfei
@@ -217,19 +198,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -245,8 +213,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -270,7 +236,6 @@ nav_order: 3
     <div class="title">Towards Automated Infographic Design: Deep Learning-based Auto-Generation of Extensible Timeline</div>
     <!-- Author -->
     <div class="author">
-
 
       Zhutian
             Chen, Yun
@@ -321,19 +286,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -349,8 +301,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -374,7 +324,6 @@ nav_order: 3
     <div class="title">EmoCo: Visual Analysis of Emotion Coherence in Presentation Videos</div>
     <!-- Author -->
     <div class="author">
-
 
       Haipeng
             Zeng, Xingbo
@@ -427,19 +376,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -455,8 +391,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -480,7 +414,6 @@ nav_order: 3
     <div class="title">PeerLens: Peer-inspired Interactive Learning Path Planning in Online Question Pool</div>
     <!-- Author -->
     <div class="author">
-
 
       Meng
             Xia, Mingfei
@@ -534,19 +467,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -564,8 +484,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -589,7 +507,6 @@ nav_order: 3
     <div class="title">Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity</div>
     <!-- Author -->
     <div class="author">
-
 
       Yong
             Wang, Daniel
@@ -641,19 +558,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -665,8 +569,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -690,7 +592,6 @@ nav_order: 3
     <div class="title">Evaluating the Readability of Force Directed Graph Layouts: A Deep Learning Approach</div>
     <!-- Author -->
     <div class="author">
-
 
       Hammad
             Haleem, Yong
@@ -741,19 +642,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -770,8 +658,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -795,7 +681,6 @@ nav_order: 3
     <div class="title">A Vector Field Design Approach to Animated Transitions</div>
     <!-- Author -->
     <div class="author">
-
 
       Yong
             Wang, Daniel
@@ -845,19 +730,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li></ol>
@@ -874,8 +746,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -899,7 +769,6 @@ nav_order: 3
     <div class="title">Towards Easy Comparison of Local Businesses Using Online Reviews</div>
     <!-- Author -->
     <div class="author">
-
 
       Yong
             Wang, Hammad
@@ -952,19 +821,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -976,8 +832,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -1001,7 +855,6 @@ nav_order: 3
     <div class="title">Fast and Robust Segmentation of White Blood Cell Images by Self-supervised Learning</div>
     <!-- Author -->
     <div class="author">
-
 
       Xin
             Zheng, Yong
@@ -1051,19 +904,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li>
@@ -1080,8 +920,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -1105,7 +943,6 @@ nav_order: 3
     <div class="title">SkyLens: Visual Analysis of Skyline on Multi-dimensional Data</div>
     <!-- Author -->
     <div class="author">
-
 
       Xun
             Zhao, Yanhong
@@ -1163,8 +1000,6 @@ nav_order: 3
         
       
       
-        
-          
 
 
 <figure>
@@ -1188,7 +1023,6 @@ nav_order: 3
     <div class="title">UI X-Ray: Interactive Mobile UI Testing Based on Computer Vision</div>
     <!-- Author -->
     <div class="author">
-
 
       Chun-Fu
             Chen, Marco
@@ -1240,19 +1074,6 @@ nav_order: 3
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
 </li></ol>
@@ -1266,8 +1087,6 @@ nav_order: 3
               <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" rel="external nofollow noopener" target="_blank">TVCG</a>
             
           </abbr>
-        
-
 
 <figure>
   <picture>
@@ -1290,7 +1109,6 @@ nav_order: 3
     <div class="title">AmbiguityVis: Visualization of Ambiguity in Graph Layouts</div>
     <!-- Author -->
     <div class="author">
-
 
       Yong
             Wang, Qiaomu
