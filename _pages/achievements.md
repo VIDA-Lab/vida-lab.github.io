@@ -7,6 +7,25 @@ nav: true
 nav_order: 4
 
 achievements:
+  - title: "Best Paper Honorable Mention Award at IEEE Visualization Conference (VIS2025)"
+    date: "2025-11"
+    paper: "Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles"
+    description: "Congrats to Shaolun, Xiaolin, and the team!"
+    link: "https://arxiv.org/pdf/2507.10024"
+    images:
+      - vis25_best_honorable_mention_1.png
+      - vis25_best_honorable_mention_2.png
+  
+  - title: "Best Paper Award at IEEE Pacific Visualization Conference (PacificVis 2026)"
+    date: "2026-04"
+    paper: "From Static to Interactive: Authoring Interactive Visualizations via Natural Language"
+    description: "Congrats to Can Liu and the team!"
+    link: "https://arxiv.org/pdf/2601.17736"
+    images:
+      - pacificvis26_best_paper_1.png
+      - pacificvis26_best_paper_2.png
+      - pacificvis26_best_paper_3.png
+
   - title: "2025 VGTC Visualization Significant New Researcher Award "
     date: "2025-11"
     paper: 
