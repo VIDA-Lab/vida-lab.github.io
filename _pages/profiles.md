@@ -22,7 +22,7 @@ profiles:
     duration: # time when staying at NTU
     next: # work place
     # content: about_member_test.md
-  
+
   - name: Can Liu
     status: current # current or past
     role: Postdoc
@@ -46,7 +46,6 @@ profiles:
     duration: 2025.9 - now
     next: Computer Network Information Center, Chinese Academy of Sciences
 
-  
   - name: Manusha Karunathilaka
     status: current
     role: Ph.D. Candidate
@@ -81,14 +80,14 @@ profiles:
     duration: 2025.08 - now
     next: # Add next position or status here if needed
 
-  - name: Gnanavel Nishaanthini 
+  - name: Gnanavel Nishaanthini
     status: current
     role: Ph.D. student
     intro: Visualization and Human-Computer Interaction
     image: nisha.jpg
     image_circular: false
     website: https://gnishaanthini.github.io/
-    email: GN0001NI@e.ntu.edu.sg 
+    email: GN0001NI@e.ntu.edu.sg
     duration: 2025.08 - now
     next: # Add next position or status here if needed
 
@@ -106,29 +105,29 @@ profiles:
   - name: Tengteng Zhu
     status: current
     role: Visiting Ph.D Student
-    intro: Visual Analytics for Robust Training and Fast Training in Distributed Machine Learning    
+    intro: Visual Analytics for Robust Training and Fast Training in Distributed Machine Learning
     image: tengtengzhu.png
     image_circular: false
     website: https://vida-lab.org/team/
     email: N2505652B@e.ntu.edu.sg
     duration: 2025.11 - now
     next: School of Automation, Beijing Institute of Technology
-  
+
   - name: Kai Yin
     status: current
     role: Visiting Ph.D Student
-    intro: Interactive Data Visualization and Analytics for Intelligent Security    
+    intro: Interactive Data Visualization and Analytics for Intelligent Security
     image: yinkai.jpg
     image_circular: false
     website: https://vida-lab.org/team/
     email: neokaiy@outlook.com
     duration: 2026.03 - now
     next: Xidian University
-  
+
   - name: Nanyi Wang
     status: current
     role: Visiting Ph.D Student
-    intro: Human Robot Interaction, Human factor，Mutimodal Human Computer Interaction    
+    intro: Human Robot Interaction, Human factor，Mutimodal Human Computer Interaction
     image: nanyi.jpg
     image_circular: false
     website: https://vida-lab.org/team/
@@ -163,11 +162,11 @@ profiles:
   - name: Zhengyu Sun
     status: current # current or past
     role: Master Student
-    intro: Visualization and Human-Computer Interaction 
+    intro: Visualization and Human-Computer Interaction
     image: zhengyusun.jpg
     image_circular: false # crops the image to make it circular
     website: https://zhengyu-sun.github.io
-    email: zhengyu003@e.ntu.edu.sg 
+    email: zhengyu003@e.ntu.edu.sg
     duration: 2025.08 - now
     next: XXX
     # content: about_member_test.md
@@ -175,7 +174,7 @@ profiles:
   - name: Sizhe Cheng
     status: current # current or past
     role: Master Student
-    intro: Human-Computer Interaction and Viaual Analytics 
+    intro: Human-Computer Interaction and Viaual Analytics
     image: sizhecheng.jpg
     image_circular: false # crops the image to make it circular
     website: https://chengsz.pekka.asia
@@ -193,7 +192,7 @@ profiles:
     website: https://shaolun-ruan.com/
     email: shaolun.ruan@monash.edu
     duration: 2022.01 - 2026.01
-    next: 
+    next:
 
   - name: Kavinda Athapaththu
     status: past
@@ -217,11 +216,11 @@ profiles:
     duration: 2024.11 - 2025.07
     next: HKUST
     # content: about_member_test.md
-  
+
   - name: Ribo Yuan
     status: past
     role: Research Assistant
-    intro: 
+    intro:
     image: ribo_yuan.jpg # Placeholder image filename
     image_circular: false
     website: https://www.linkedin.com/in/riboyuan/
@@ -232,18 +231,18 @@ profiles:
   - name: Haonan Xu
     status: past
     role: MSc Student
-    intro: 
+    intro:
     image: haonan_xu.jpg # Placeholder image filename
     image_circular: false
     website: https://www.linkedin.com/in/haonan-xu-flm/?originalSubdomain=sg
     email: Please reach out to the PI to contact the member # Email not provided in the visible content
     duration: 2020.12 - 2021.06 # No duration details provided
     next: Developer at Singtel
-  
+
   - name: Shixian Zhou
     status: past
     role: Visiting Student
-    intro: Visual Analytics    
+    intro: Visual Analytics
     image: shixianzhou.png
     image_circular: false
     website: https://vida-lab.org/team/
@@ -254,7 +253,7 @@ profiles:
   - name: Ruiqi Yu
     status: past
     role: Visiting Student
-    intro: Visual Analytics    
+    intro: Visual Analytics
     image: ruiqiyu.png
     image_circular: false
     website: https://yriccch.github.io/#/
@@ -265,7 +264,7 @@ profiles:
   - name: Arsenii Galaida
     status: past
     role: Visiting Student
-    intro: Visualization for Explainable LLMs   
+    intro: Visualization for Explainable LLMs
     image: arsenii.png
     image_circular: false
     website: https://github.com/ArseniiGalaida
@@ -282,7 +281,7 @@ profiles:
     website: https://www.linkedin.com/in/zubairb/
     email: n2402831f@e.ntu.edu.sg
     duration: 2025.07 - 2025.09
-    next: 
+    next:
     # content: about_member_test.md
 
   - name: Fengling Zheng
@@ -304,7 +303,7 @@ profiles:
     image: fanyilun.jpg
     image_circular: false # crops the image to make it circular
     website: https://vida-lab.org/team/
-    email: fanyilun7@gmail.com 
+    email: fanyilun7@gmail.com
     duration: 2024.11 - 2025.05
     next: Central South University
     # content: about_member_test.md
@@ -319,7 +318,7 @@ profiles:
     email: woukl22@gmail.com
     duration: 2025.01 - 2025.05 # Add duration of the position here if needed
     next: Ajou University # Add next position or status here if needed
- 
+
   - name: Yi Ding
     status: past # current or past
     role: Visiting Student
@@ -336,7 +335,7 @@ profiles:
   - name: Cheng Chen
     status: past
     role: Visiting Student
-    intro: 
+    intro:
     image: chencheng.jpg # Placeholder image filename
     image_circular: false
     website: https://vida-lab.org/team/
@@ -347,7 +346,7 @@ profiles:
   - name: Li Ye
     status: past
     role: Visiting Student
-    intro: 
+    intro:
     image: liye.jpg # Placeholder image filename
     image_circular: false
     website: https://vida-lab.org/team/
@@ -358,7 +357,7 @@ profiles:
   - name: Haoxuan Wang
     status: past
     role: Visiting Student
-    intro: 
+    intro:
     image: haoxuanwang.jpg # Placeholder image filename
     image_circular: false
     website: https://vida-lab.org/team/
@@ -376,7 +375,7 @@ profiles:
     email: ylindg@connect.ust.hk
     duration: 2022.05 - 2022.09
     next: Postdoc at HKUST
-  
+
   - name: Haotian Li
     status: past
     role: Visiting Student
@@ -391,12 +390,11 @@ profiles:
   - name: Kim Siang Yeo
     status: past
     role: MITB Student
-    intro: 
+    intro:
     image: kimsiang.jpg # Placeholder image filename
     image_circular: false
     website: https://www.linkedin.com/in/kim-siang-yeo-b42317134/?originalSubdomain=sg
     email: Please reach out to the PI to contact the member # Email not provided in the visible content
     duration: 2021.11 - 2022.05 # No duration details provided
     next: Data Analyst at Citi
-
 ---

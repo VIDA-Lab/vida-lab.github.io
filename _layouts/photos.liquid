@@ -3,29 +3,29 @@ layout: page
 ---
 <div class="post">
   <article class="page-content">
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">{{ page.date | date: '%B %-d, %Y' }}</p>
     {{ content }}
-    {% assign sorted_galleries = page.gallery | sort: "date" | reverse %}
+    {% assign sorted_galleries = page.gallery | sort: 'date' | reverse %}
     {% if page.gallery %}
       {% for gallery in sorted_galleries %}
         <section class="gallery-section">
           <h4>{{ gallery.title }}</h4>
-          <p class="post-meta">{{ gallery.date | date: "%B %-d, %Y" }}</p>
+          <p class="post-meta">{{ gallery.date | date: '%B %-d, %Y' }}</p>
           <div class="gallery-description">
             {{ gallery.description }}
           </div>
 
           {% if gallery.images %}
             {% assign img_count = gallery.images | size %}
-             <div class="image-gallery {% if img_count == 1 %}single count-1{% elsif img_count == 2 %}multi count-2{% elsif img_count == 3 %}multi count-3{% else %}multi count-4plus{% endif %}">
-             {% assign base = "/assets/img/life/" %}
-                {% for img in gallery.images limit:4 %}
-                  <figure class="gallery-item">
+            <div class="image-gallery {% if img_count == 1 %}single count-1{% elsif img_count == 2 %}multi count-2{% elsif img_count == 3 %}multi count-3{% else %}multi count-4plus{% endif %}">
+              {% assign base = '/assets/img/life/' %}
+              {% for img in gallery.images limit: 4 %}
+                <figure class="gallery-item">
                   <img
-                      src="{{ base | append: img | relative_url }}"
-                      alt="{{ gallery.title }} – image {{ forloop.index }}"
-                    />
-                  </figure>
+                    src="{{ base | append: img | relative_url }}"
+                    alt="{{ gallery.title }} – image {{ forloop.index }}"
+                  >
+                </figure>
               {% endfor %}
             </div>
           {% else %}
@@ -40,100 +40,128 @@ layout: page
 </div>
 
 <style>
-.gallery-section {
-  margin-top: 3rem;
-  border-top: 1px solid #ddd;
-  padding-top: 2rem;
-}
+  .gallery-section {
+    margin-top: 3rem;
+    border-top: 1px solid #ddd;
+    padding-top: 2rem;
+  }
 
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 0.25rem; /* 间距缩小 */
-  justify-content: center; /* 少量图片时居中 */
-  max-width: 2400px;
-  margin: 0 auto;
-  justify-items: stretch; /* 图片横向填满列 */
-}
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 0.25rem; /* 间距缩小 */
+    justify-content: center; /* 少量图片时居中 */
+    max-width: 2400px;
+    margin: 0 auto;
+    justify-items: stretch; /* 图片横向填满列 */
+  }
 
-/* 单图：居中且适当缩小，不填满整行 */
-.image-gallery.single {
-  grid-template-columns: 1fr;
-  justify-items: center;
-}
-.image-gallery.single .gallery-item {
-  max-width: 960px; /* 单图最大宽度增加20% */
-  margin: 0 auto;
-  height: 432px; /* 单图高度再增加20% */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.image-gallery.single .gallery-item img {
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
+  /* 单图：居中且适当缩小，不填满整行 */
+  .image-gallery.single {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .image-gallery.single .gallery-item {
+    max-width: 960px; /* 单图最大宽度增加20% */
+    margin: 0 auto;
+    height: 432px; /* 单图高度再增加20% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-gallery.single .gallery-item img {
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
 
-/* 多图：统一高度对齐，不裁剪 */
-.image-gallery.multi .gallery-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 264px; /* 默认多图高度 +20% */
-}
-/* 2/3/4+ 张时分别按20%等比放大高度 */
-.image-gallery.count-2 .gallery-item { height: 312px; }
-.image-gallery.count-3 .gallery-item { height: 288px; }
-.image-gallery.count-4plus .gallery-item { height: 276px; }
+  /* 多图：统一高度对齐，不裁剪 */
+  .image-gallery.multi .gallery-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 264px; /* 默认多图高度 +20% */
+  }
+  /* 2/3/4+ 张时分别按20%等比放大高度 */
+  .image-gallery.count-2 .gallery-item {
+    height: 312px;
+  }
+  .image-gallery.count-3 .gallery-item {
+    height: 288px;
+  }
+  .image-gallery.count-4plus .gallery-item {
+    height: 276px;
+  }
 
-.image-gallery.multi .gallery-item img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* 保持完整显示，行内等高对齐 */
-}
+  .image-gallery.multi .gallery-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* 保持完整显示，行内等高对齐 */
+  }
 
-.gallery-item {
-  width: 100%;
-  margin: 0; /* 重置默认 figure 边距 */
-  display: block; /* 让高度跟随图片自适应 */
-}
+  .gallery-item {
+    width: 100%;
+    margin: 0; /* 重置默认 figure 边距 */
+    display: block; /* 让高度跟随图片自适应 */
+  }
 
-.gallery-item img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: contain; /* 展示完整图片，无裁剪 */
-}
+  .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* 展示完整图片，无裁剪 */
+  }
 
-@media (max-width: 992px) {
-  .image-gallery { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-  .image-gallery.single .gallery-item { height: 384px; } /* 单图高度再增大20% */
-  .image-gallery.multi .gallery-item { height: 240px; } /* 多图高度等比放大 */
-  .image-gallery.count-2 .gallery-item { height: 276px; }
-  .image-gallery.count-3 .gallery-item { height: 252px; }
-  .image-gallery.count-4plus .gallery-item { height: 240px; }
-}
-@media (max-width: 576px) {
-  .image-gallery { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-  .image-gallery.single .gallery-item { height: 336px; } /* 单图高度再增大20% */
-  .image-gallery.multi .gallery-item { height: 204px; } /* 多图高度等比放大 */
-  .image-gallery.count-2 .gallery-item { height: 240px; }
-  .image-gallery.count-3 .gallery-item { height: 216px; }
-  .image-gallery.count-4plus .gallery-item { height: 204px; }
-}
+  @media (max-width: 992px) {
+    .image-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .image-gallery.single .gallery-item {
+      height: 384px;
+    } /* 单图高度再增大20% */
+    .image-gallery.multi .gallery-item {
+      height: 240px;
+    } /* 多图高度等比放大 */
+    .image-gallery.count-2 .gallery-item {
+      height: 276px;
+    }
+    .image-gallery.count-3 .gallery-item {
+      height: 252px;
+    }
+    .image-gallery.count-4plus .gallery-item {
+      height: 240px;
+    }
+  }
+  @media (max-width: 576px) {
+    .image-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .image-gallery.single .gallery-item {
+      height: 336px;
+    } /* 单图高度再增大20% */
+    .image-gallery.multi .gallery-item {
+      height: 204px;
+    } /* 多图高度等比放大 */
+    .image-gallery.count-2 .gallery-item {
+      height: 240px;
+    }
+    .image-gallery.count-3 .gallery-item {
+      height: 216px;
+    }
+    .image-gallery.count-4plus .gallery-item {
+      height: 204px;
+    }
+  }
 
+  .post-meta {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
 
-.post-meta {
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-}
-
-.gallery-description {
-  margin-bottom: 1rem;
-}
-
+  .gallery-description {
+    margin-bottom: 1rem;
+  }
 </style>

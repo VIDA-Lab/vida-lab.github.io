@@ -2,18 +2,17 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-          <img
-            class="only-light  nav-logo"
-            src="{{ '/assets/img/Logo_with_text_Light.png' | relative_url }}"
-            alt="{{ site.title }} (light logo)"
-          >
-          <img
-            class="only-dark nav-logo"
-            src="{{ '/assets/img/Logo_with_text_Dark.png' | relative_url }}"
-            alt="{{ site.title }} (dark logo)"
-          >
+      <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <img
+          class="only-light  nav-logo"
+          src="{{ '/assets/img/Logo_with_text_Light.png' | relative_url }}"
+          alt="{{ site.title }} (light logo)"
+        >
+        <img
+          class="only-dark nav-logo"
+          src="{{ '/assets/img/Logo_with_text_Dark.png' | relative_url }}"
+          alt="{{ site.title }} (dark logo)"
+        >
       </a>
       {% if page.permalink != '/' %}
       {% elsif site.enable_navbar_social %}
@@ -146,11 +145,10 @@
 </header>
 
 <style>
-.nav-logo {
-  max-height: 60px;
-  width: auto;
-  display: inline-block;
-  vertical-align: middle;
-}
-
+  .nav-logo {
+    max-height: 60px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
 </style>

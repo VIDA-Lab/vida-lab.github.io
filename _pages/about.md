@@ -29,7 +29,6 @@ latest_posts:
 slide:
   - hero1.jpg
 
-
 recentPub:
   - Envisage.png
   - LLM for Design Study.png
@@ -39,7 +38,6 @@ recentPub:
   - QuantumEyes.png
   - AdaVis.png
   - NFTDisk.png
-
 ---
 
 <!-- 在 index.md 或其他页面插入以下代码 -->
@@ -47,7 +45,4 @@ recentPub:
   <img src="{{ '/assets/img/custom/banner.jpg' | relative_url }}" alt="Banner Image" style="width: 100%; max-width: 1200px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-bottom: 2rem;" />
 </div> -->
 
-We are the [**Visualization and Intelligent Data Analytics Lab (VIDA Lab)**](https://vida-lab.org/) at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/).  Our mission is to advance the frontiers of data visualization, human-computer interaction and human-centered artificial intelligence, with the aim of augmenting human’s ability to understand and analyze large-scale data in various domains (e.g., FinTech, quantum computing and education) as well as AI models.
-
-
-
+We are the [**Visualization and Intelligent Data Analytics Lab (VIDA Lab)**](https://vida-lab.org/) at [Nanyang Technological University (NTU)](https://www.ntu.edu.sg/). Our mission is to advance the frontiers of data visualization, human-computer interaction and human-centered artificial intelligence, with the aim of augmenting human’s ability to understand and analyze large-scale data in various domains (e.g., FinTech, quantum computing and education) as well as AI models.

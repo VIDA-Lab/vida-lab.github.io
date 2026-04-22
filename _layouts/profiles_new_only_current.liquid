@@ -21,8 +21,8 @@ layout: page
               {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
             {% endif %}
 
-             <!-- Name -->
-             {% if profile.name %}
+            <!-- Name -->
+            {% if profile.name %}
               <h3 class="profile-name mb-1">{{ profile.name }}</h3>
             {% endif %}
 
@@ -36,8 +36,8 @@ layout: page
               <p class="profile-intro mb-2">{{ profile.intro }}</p>
             {% endif %}
 
-             <!-- Personal Website and Email: 1 row -->
-             <div class="profile-links d-flex justify-content-center align-items-center mt-2">
+            <!-- Personal Website and Email: 1 row -->
+            <div class="profile-links d-flex justify-content-center align-items-center mt-2">
               {% if profile.website %}
                 <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary mx-2">Website</a>
               {% endif %}
@@ -50,16 +50,18 @@ layout: page
             </div>
 
             <!-- Personal Website and Email: 2 rows -->
-            {% comment %} <div class="profile-links">
-              {% if profile.website %}
-                <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary">Website</a>
-              {% endif %}
-              {% if profile.email %}
-                <div>
-                  <button class="btn btn-link p-0 text-primary" onclick="copyToClipboard('{{ profile.email }}')">Email</button>
-                </div>
-              {% endif %}
-            </div> {% endcomment %}
+            {% comment %}
+              <div class="profile-links">
+                {% if profile.website %}
+                  <a href="{{ profile.website }}" target="_blank" class="btn btn-link p-0 text-primary">Website</a>
+                {% endif %}
+                {% if profile.email %}
+                  <div>
+                    <button class="btn btn-link p-0 text-primary" onclick="copyToClipboard('{{ profile.email }}')">Email</button>
+                  </div>
+                {% endif %}
+              </div>
+            {% endcomment %}
           </div>
         {% endfor %}
       </div>
@@ -114,7 +116,7 @@ layout: page
     gap: 1rem; /* Space between website and email */
   }
 
-  .profile-links a, 
+  .profile-links a,
   .profile-links button {
     text-decoration: none;
     font-size: 0.85rem;
@@ -126,7 +128,7 @@ layout: page
     text-transform: none;
   }
 
-  .profile-links a:hover, 
+  .profile-links a:hover,
   .profile-links button:hover {
     text-decoration: underline;
   }

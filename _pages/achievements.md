@@ -15,7 +15,7 @@ achievements:
     images:
       - vis25_best_honorable_mention_1.png
       - vis25_best_honorable_mention_2.png
-  
+
   - title: "Best Paper Award at IEEE Pacific Visualization Conference (PacificVis 2026)"
     date: "2026-04"
     paper: "From Static to Interactive: Authoring Interactive Visualizations via Natural Language"
@@ -28,7 +28,7 @@ achievements:
 
   - title: "2025 VGTC Visualization Significant New Researcher Award "
     date: "2025-11"
-    paper: 
+    paper:
     description: "[Prof. Yong Wang](https://yong-wang.org/) won the [2025 VGTC Visualization Significant New Researcher Award](https://vida-lab.org/achievements/). Congratulations to Prof. Yong Wang and the team!"
     link: "https://yong-wang.org/"
     images:
@@ -45,7 +45,7 @@ achievements:
 
   - title: "2025 Google PhD Fellowship in Quantum Computing "
     date: "2025-09"
-    paper: 
+    paper:
     description: "[Shaolun Ruan](https://shaolun-ruan.com/) received [2025 Google PhD Fellowship in Quantum Computing](https://research.google/programs-and-events/phd-fellowship/recipients/)! Congratulations to Shaolun and the team!"
     link: "https://research.google/programs-and-events/phd-fellowship/recipients/"
     images:
@@ -65,7 +65,7 @@ achievements:
     paper: "Structure-aware Visualization Retrieval"
     description: "Congrats to Haotian and the team!"
     link: "/assets/pdf/22-CHI-VIS-Retrieval.pdf"
-    images: 
+    images:
       - chi22_black_border.png
 
   - title: "Honorable Mention Award from IEEE Visualization Conference (VIS2021)"
@@ -73,7 +73,7 @@ achievements:
     paper: "KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation"
     description: "Congrats to Haotian and the team!"
     link: "/assets/pdf/21-TVCG-KG4VIS.pdf"
-    images: 
+    images:
       - vis21_1.png
 
   - title: "Honorable Mention Award from IEEE Visualization Conference (VIS2021)"
@@ -83,5 +83,4 @@ achievements:
     link: "/assets/pdf/21-TVCG-M2Lens.pdf"
     images:
       - vis21_2.png
-
 ---

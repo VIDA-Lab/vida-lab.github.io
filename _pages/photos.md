@@ -12,20 +12,20 @@ gallery:
     description: >
     images:
       - Shaolun-Graduate.png
-    
+
   - title: "Our team attended IEEE VIS 2025 — congratulations to Prof. Yong Wang for receiving the IEEE VGTC Visualization Significant New Researcher Award! 🎉🏅"
     date: 2025-11
     description: >
     images:
       - vis2025_1.png
       - vis2025_2.png
-    
+
   - title: "The last group seminar before Jaeuk flied back to South Korea. All the best!"
     date: 2025-05
     description: >
     images:
       - Before_Jaeuk_Fly_Back.jpg
-      
+
   - title: "The team's visit to the Bukit Timah Summit and the Singapore Quarry."
     date: 2025-05
     description:
@@ -33,20 +33,18 @@ gallery:
       - Bukit_Timah_Summit_2025.jpg
       - Bukit_Timah_Summit_2025_2.jpg
       - Bukit_Timah_Summit_2025_3.jpg
-      
+
   - title: "The happy moment after our IEEE VIS 25 submissions."
     date: 2025-04
     description: >
     images:
       - After-IEEE-Vis-25-Submission.jpg
 
-
   - title: "The VIDA Lab team welcomed Fengjie and Yilun. Glad to have you on the team!"
     date: 2025-01
     description: >
     images:
       - Welcome_dinner_for_Fengjie_Yilun.jpg
-
 
   - title: "We had a group dinner before the 2025 Chinese New Year."
     date: 2025-01
@@ -61,7 +59,7 @@ gallery:
       - After-IEEE-Vis-24-Submission_1.jpg
       - After-IEEE-Vis-24-Submission_2.jpg
       - After-IEEE-Vis-24-Submission_3.jpg
-      
+
   - title: "The first group meeting with Kavinda. Glad to have you on board."
     date: 2024-01
     description: >
@@ -91,7 +89,7 @@ gallery:
     description: >
     images:
       - ChinaVis_2024.jpg
-      
+
   - title: "The VIDA Lab team welcomed Chen and Yanna."
     date: 2022-06
     description: >
