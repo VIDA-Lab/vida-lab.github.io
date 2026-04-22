@@ -136,41 +136,6 @@ profiles:
     duration: 2026.04 - now
     next: Beijing Institute of Technology
 
-  - name: Shixian Zhou
-    status: current
-    role: Visiting Student
-    intro: Visual Analytics    
-    image: shixianzhou.png
-    image_circular: false
-    website: https://vida-lab.org/team/
-    email: xxx
-    duration: 2026.01 - 2026.04
-    next: xxx
-
-  - name: Ruiqi Yu
-    status: current
-    role: Visiting Student
-    intro: Visual Analytics    
-    image: ruiqiyu.png
-    image_circular: false
-    website: https://yriccch.github.io/#/
-    email: xxx
-    duration: 2026.01 - 2026.04
-    next: xxx
-
-
-  - name: Arsenii Galaida
-    status: current
-    role: Visiting Student
-    intro: Visualization for Explainable LLMs   
-    image: arsenii.png
-    image_circular: false
-    website: https://github.com/ArseniiGalaida
-    email: galaida.arseniy@gmail.com
-    duration: 2026.02 - now
-    next: xxx
-
-
   - name: Shiwei Chen
     status: current # current or past
     role: Master Student
@@ -230,6 +195,84 @@ profiles:
     duration: 2022.01 - 2026.01
     next: 
 
+  - name: Kavinda Athapaththu
+    status: past
+    role: Research Engineer
+    intro: Machine Learning, Visualization, Computer Vision, GIS, HCI
+    image: kavinda_athapaththu.jpg
+    image_circular: false
+    website: https://kavinda.lk/
+    email: kavinda.athapaththu@ntu.edu.sg # Email not provided in the source
+    duration: 2024.01 - 2025.07 # Add duration of the position here if needed
+    next: # Add next position or status here if needed
+
+  - name: Fengjie Wang
+    status: past # current or past
+    role: Research Assistant
+    intro: Human-notebook interaction, interactive tools for data science
+    image: wangfengjie.jpg
+    image_circular: false # crops the image to make it circular
+    website: https://ff0820.github.io/
+    email: ff11060820@gmail.com
+    duration: 2024.11 - 2025.07
+    next: HKUST
+    # content: about_member_test.md
+  
+  - name: Ribo Yuan
+    status: past
+    role: Research Assistant
+    intro: 
+    image: ribo_yuan.jpg # Placeholder image filename
+    image_circular: false
+    website: https://www.linkedin.com/in/riboyuan/
+    email: Please reach out to the PI to contact the member # Email not provided in the visible content
+    duration: 2022.05 - 2023.02 # No duration details provided
+    next: Engineer at Tesla
+
+  - name: Haonan Xu
+    status: past
+    role: MSc Student
+    intro: 
+    image: haonan_xu.jpg # Placeholder image filename
+    image_circular: false
+    website: https://www.linkedin.com/in/haonan-xu-flm/?originalSubdomain=sg
+    email: Please reach out to the PI to contact the member # Email not provided in the visible content
+    duration: 2020.12 - 2021.06 # No duration details provided
+    next: Developer at Singtel
+  
+  - name: Shixian Zhou
+    status: past
+    role: Visiting Student
+    intro: Visual Analytics    
+    image: shixianzhou.png
+    image_circular: false
+    website: https://vida-lab.org/team/
+    email: xxx
+    duration: 2026.01 - 2026.04
+    next: xxx
+
+  - name: Ruiqi Yu
+    status: past
+    role: Visiting Student
+    intro: Visual Analytics    
+    image: ruiqiyu.png
+    image_circular: false
+    website: https://yriccch.github.io/#/
+    email: xxx
+    duration: 2026.01 - 2026.04
+    next: xxx
+
+  - name: Arsenii Galaida
+    status: past
+    role: Visiting Student
+    intro: Visualization for Explainable LLMs   
+    image: arsenii.png
+    image_circular: false
+    website: https://github.com/ArseniiGalaida
+    email: galaida.arseniy@gmail.com
+    duration: 2026.02 - now
+    next: xxx
+
   - name: Zubair Bashir
     status: past # current or past
     role: Visiting Student
@@ -253,29 +296,6 @@ profiles:
     duration: 2025.02 - 2025.08
     next: Hangzhou Dianzi University
     # content: about_member_test.md
-
-  - name: Fengjie Wang
-    status: past # current or past
-    role: Research Assistant
-    intro: Human-notebook interaction, interactive tools for data science
-    image: wangfengjie.jpg
-    image_circular: false # crops the image to make it circular
-    website: https://ff0820.github.io/
-    email: ff11060820@gmail.com
-    duration: 2024.11 - 2025.07
-    next: HKUST
-    # content: about_member_test.md
-
-  - name: Kavinda Athapaththu
-    status: past
-    role: Research Engineer
-    intro: Machine Learning, Visualization, Computer Vision, GIS, HCI
-    image: kavinda_athapaththu.jpg
-    image_circular: false
-    website: https://kavinda.lk/
-    email: kavinda.athapaththu@ntu.edu.sg # Email not provided in the source
-    duration: 2024.01 - 2025.07 # Add duration of the position here if needed
-    next: # Add next position or status here if needed
 
   - name: Yilun Fan
     status: past # current or past
@@ -346,17 +366,6 @@ profiles:
     duration: 2023.08 - 2023.10 # No duration details provided
     next: ZUFE # Zhejiang University of Finance & Economics
 
-  - name: Ribo Yuan
-    status: past
-    role: Research Assistant
-    intro: 
-    image: ribo_yuan.jpg # Placeholder image filename
-    image_circular: false
-    website: https://www.linkedin.com/in/riboyuan/
-    email: Please reach out to the PI to contact the member # Email not provided in the visible content
-    duration: 2022.05 - 2023.02 # No duration details provided
-    next: Engineer at Tesla
-
   - name: Yanna Lin
     status: past
     role: Visiting Student
@@ -390,14 +399,4 @@ profiles:
     duration: 2021.11 - 2022.05 # No duration details provided
     next: Data Analyst at Citi
 
-  - name: Haonan Xu
-    status: past
-    role: MSc Student
-    intro: 
-    image: haonan_xu.jpg # Placeholder image filename
-    image_circular: false
-    website: https://www.linkedin.com/in/haonan-xu-flm/?originalSubdomain=sg
-    email: Please reach out to the PI to contact the member # Email not provided in the visible content
-    duration: 2020.12 - 2021.06 # No duration details provided
-    next: Developer at Singtel
 ---
