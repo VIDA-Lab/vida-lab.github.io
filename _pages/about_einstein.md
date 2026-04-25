@@ -33,6 +33,7 @@ Situated within the College of Computing and Data Science (CCDS), VIDA Lab focus
 VIDA lab is led by Dr. Yong Wang, a tenure-track Assistant Professor at CCDS, NTU. Prior to joining NTU, Dr. Yong Wang was an Assistant Professor at the Singapore Management University (SMU) and received his PhD from the Hong Kong University of Science and Technology (HKUST) under the supervision of Prof. Huamin Qu.
 
 ### Research Areas
+
 Our research intersects multiple disciplines, including:
 
 - **Information Visualization:** Novel techniques for visual encoding and layout of complex data.
@@ -43,5 +44,6 @@ Our research intersects multiple disciplines, including:
 We actively apply our research across domains such as online learning, FinTech, quantum computing, and smart manufacturing, with coverage by international media such as NHK, IEEE Spectrum, and the ACM SIGGRAPH Blog.
 
 ### Join Us
+
 We are currently recruiting Ph.D./M.Eng. students, Research Assistants (RAs), and Visiting Interns who are passionate about visualization, AI, and human-computer interaction.
 Feel free to reach out via email if you're interested!

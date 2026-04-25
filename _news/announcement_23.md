@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-
 Our paper "Structure-aware Visualization Retrieval" won **Best Paper Honorable Mention Award** 🏅 at CHI 2022! Congratulations to Haotian!

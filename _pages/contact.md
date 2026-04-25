@@ -5,8 +5,8 @@ title: Contact Us
 description: We are always happy to hear from you.
 nav: true
 nav_order: 7
-
 ---
+
 <h2><i class = "ti ti-mail"/> Email</h2>
 <!-- yong-wang [at] ntu.edu.sg -->
 <div style="margin-bottom: 1rem;">
@@ -64,7 +64,6 @@ Visualization and Intelligent Data Analytics Lab, <br>College of Computing and D
 }
 
 </style>
-
 
 <script>
 /* Copy email to clipboard */
