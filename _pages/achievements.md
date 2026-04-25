@@ -22,9 +22,9 @@ achievements:
     description: "Congrats to Can Liu and the team!"
     link: "https://arxiv.org/pdf/2601.17736"
     images:
-      - pacificvis26_best_paper_1.png
-      - pacificvis26_best_paper_2.png
-      - pacificvis26_best_paper_3.png
+      - pacificvis26_best_paper_1.jpg
+      - pacificvis26_best_paper_2.jpg
+      - pacificvis26_best_paper_3.jpg
 
   - title: "2025 VGTC Visualization Significant New Researcher Award "
     date: "2025-11"

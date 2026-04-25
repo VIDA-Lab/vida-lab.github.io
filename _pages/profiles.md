@@ -32,7 +32,7 @@ profiles:
     website: http://liucan.me/
     email: can.liu.1996@gmail.com
     duration: 2024.12 - now
-    next: XXX
+    next: # add later
     # content: about_member_test.md
 
   - name: Shiyu Cheng
@@ -66,7 +66,7 @@ profiles:
     website: https://wenxiaolin.com/
     email: xiaolin004@e.ntu.edu.sg
     duration: 2025.01 - now
-    next: XXX
+    next: # add later
     # content: about_member_test.md
 
   - name: Sritharan Niruthikka
@@ -144,7 +144,7 @@ profiles:
     website: https://csw0109.github.io/
     email: shiwei004@e.ntu.edu.sg
     duration: 2025.01 - now
-    next: XXX
+    next: # add later
     # content: about_member_test.md
 
   - name: Feng Liang
@@ -156,7 +156,7 @@ profiles:
     website: https://fengliang.io
     email: feng011@e.ntu.edu.sg
     duration: 2025.08 - now
-    next: XXX
+    next: # add later
     # content: about_member_test.md
 
   - name: Zhengyu Sun
@@ -168,7 +168,7 @@ profiles:
     website: https://zhengyu-sun.github.io
     email: zhengyu003@e.ntu.edu.sg
     duration: 2025.08 - now
-    next: XXX
+    next: # add later
     # content: about_member_test.md
 
   - name: Sizhe Cheng
@@ -180,7 +180,7 @@ profiles:
     website: https://chengsz.pekka.asia
     email: sizhe003@e.ntu.edu.sg
     duration: 2025.08 - now
-    next: XXX
+    next: # add later
     # content: about_member_test.md
 
   - name: Shaolun Ruan
@@ -246,9 +246,9 @@ profiles:
     image: shixianzhou.png
     image_circular: false
     website: https://vida-lab.org/team/
-    email: xxx
+    email: # add later
     duration: 2026.01 - 2026.04
-    next: xxx
+    next: # add later
 
   - name: Ruiqi Yu
     status: past
@@ -257,9 +257,9 @@ profiles:
     image: ruiqiyu.png
     image_circular: false
     website: https://yriccch.github.io/#/
-    email: xxx
+    email: # add later
     duration: 2026.01 - 2026.04
-    next: xxx
+    next: # add later
 
   - name: Arsenii Galaida
     status: past
@@ -270,7 +270,7 @@ profiles:
     website: https://github.com/ArseniiGalaida
     email: galaida.arseniy@gmail.com
     duration: 2026.02 - now
-    next: xxx
+    next: # add later
 
   - name: Zubair Bashir
     status: past # current or past
