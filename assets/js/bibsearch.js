@@ -1,6 +1,29 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
+const VENUE_PRIORITY = { TVCG: 1, VIS: 2, CHI: 3, PacificVis: 4 };
+
+function venuePriority(abbr) {
+  for (const [venue, rank] of Object.entries(VENUE_PRIORITY)) {
+    if (abbr.startsWith(venue)) return rank;
+  }
+  return Object.keys(VENUE_PRIORITY).length + 1;
+}
+
+function sortBibliographiesByVenue() {
+  document.querySelectorAll("ol.bibliography").forEach((ol) => {
+    const items = Array.from(ol.querySelectorAll(":scope > li"));
+    items.sort((a, b) => {
+      const abbrA = a.querySelector("abbr.badge")?.textContent.trim() ?? "";
+      const abbrB = b.querySelector("abbr.badge")?.textContent.trim() ?? "";
+      return venuePriority(abbrA) - venuePriority(abbrB);
+    });
+    items.forEach((item) => ol.appendChild(item));
+  });
+}
+
 document.addEventListener("DOMContentLoaded", function () {
+  sortBibliographiesByVenue();
+
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
