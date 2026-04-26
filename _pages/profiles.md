@@ -130,7 +130,7 @@ profiles:
     intro: Human Robot Interaction, Human factor，Mutimodal Human Computer Interaction
     image: nanyi.jpg
     image_circular: false
-    website: https://vida-lab.org/team/
+    website: https://wnymagic.github.io/
     email: N2505962F@e.ntu.edu.sg
     duration: 2026.04 - now
     next: Beijing Institute of Technology
