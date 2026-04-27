@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We’re delighted to welcome [Tengteng Zhu]() to our team as a Visiting PhD Student!🎉🎉
+We’re delighted to welcome [Tengteng]() to our team as a Visiting PhD Student! 🎉

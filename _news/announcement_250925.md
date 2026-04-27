@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We’re delighted to welcome [Shiyu](https://orangecsy.github.io) to our team as a Visiting Post-doc! 🎉🎉🎉
+We’re delighted to welcome [Shiyu](https://orangecsy.github.io) to our team as a Visiting Post-doc! 🎉

@@ -177,7 +177,7 @@ profiles:
     intro: Human-Computer Interaction and Viaual Analytics
     image: sizhecheng.jpg
     image_circular: false # crops the image to make it circular
-    website: https://chengsz.pekka.asia
+    website: https://chengsizhe.work
     email: sizhe003@e.ntu.edu.sg
     duration: 2025.08 - now
     next: # add later

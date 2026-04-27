@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We are excited to welcome [Nanyi Wang](https://vida-lab.org/team/) as a Visiting Ph.D. Student to our team! 🎉🎉
+We are excited to welcome [Kai]() and [Nanyi](https://wnymagic.github.io/) as Visiting Ph.D. Students, and [Arsenii](https://github.com/ArseniiGalaida) as a Visiting Student to our team! 🎉
