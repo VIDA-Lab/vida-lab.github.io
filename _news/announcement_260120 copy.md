@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We are thrilled to share that our team has six accepted papers: [BAIT](https://arxiv.org/pdf/2601.17736) and [HyperMOOC](https://arxiv.org/pdf/2509.08404) at CHI 2026, [Compendia](https://yong-wang.org/publication/26-TVCG-Compendia.pdf) and [Explainable Quantum AI](https://arxiv.org/pdf/2512.14181) at IEEE TVCG, [Athanor](https://arxiv.org/pdf/2601.17736) at PacificVis 2026, and [When the Chain Breaks](https://arxiv.org/pdf/2603.21286) at EuroVis 2026. Congratulations to all team members on this fantastic achievement! 🎉
+We are thrilled to share that our team has seven accepted papers: [BAIT](https://arxiv.org/pdf/2601.17736) and [HyperMOOC](https://arxiv.org/pdf/2509.08404) at CHI 2026, [Compendia](https://yong-wang.org/publication/26-TVCG-Compendia.pdf) and [Explainable Quantum AI](https://arxiv.org/pdf/2512.14181) at IEEE TVCG, [Athanor](https://arxiv.org/pdf/2601.17736) at PacificVis 2026, and [When the Chain Breaks](https://arxiv.org/pdf/2603.21286) and [SemiConLens](https://yong-wang.org/publication/26-EuroVis26-SemiConLens.pdf) at EuroVis 2026. Congratulations to all team members on this fantastic achievement! 🎉

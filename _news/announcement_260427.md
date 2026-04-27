@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-04-27
+date: 2026-02-27
 inline: true
 related_posts: false
 ---
 
-🎉 Congratulations to [Prof. Yong Wang](https://yong-wang.org/) on being appointed as an Associate Editor of IEEE Transactions on Visualization and Computer Graphics (TVCG)! We are proud of this achievement and his continued contributions to the visualization research community. 👏
+[Prof. Yong Wang](https://yong-wang.org/) has been appointed as an Associate Editor of IEEE Transactions on Visualization and Computer Graphics (TVCG). Congratulations on this achievement! 🎉
