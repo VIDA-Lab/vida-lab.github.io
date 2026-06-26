@@ -91,17 +91,6 @@ profiles:
     duration: 2025.08 - now
     next: # Add next position or status here if needed
 
-  - name: Songheng Zhang
-    status: current
-    role: Ph.D. Candidate
-    intro: Mobile Visualization, AI4Vis, Data Science, Data Analysis, Statistics
-    image: songheng_zhang.jpg
-    image_circular: false
-    website: https://alexanderzsh.github.io/
-    email: shzhang.2021@phdcs.smu.edu.sg
-    duration: 2021.08 - now
-    next: RICE Lab (Tony Tang), Singapore Management University (2024)
-
   - name: Tengteng Zhu
     status: current
     role: Visiting Ph.D Student
@@ -194,6 +183,17 @@ profiles:
     duration: 2022.01 - 2026.01
     next:
 
+  - name: Songheng Zhang
+    status: past
+    role: Ph.D. Candidate
+    intro: Mobile Visualization, AI4Vis, Data Science, Data Analysis, Statistics
+    image: songheng_zhang.jpg
+    image_circular: false
+    website: https://alexanderzsh.github.io/
+    email: shzhang.2021@phdcs.smu.edu.sg
+    duration: 2021.08 - 2024.07
+    next:
+
   - name: Kavinda Athapaththu
     status: past
     role: Research Engineer
@@ -269,7 +269,7 @@ profiles:
     image_circular: false
     website: https://github.com/ArseniiGalaida
     email: galaida.arseniy@gmail.com
-    duration: 2026.02 - now
+    duration: 2026.02 - 2026.04
     next: # add later
 
   - name: Zubair Bashir
