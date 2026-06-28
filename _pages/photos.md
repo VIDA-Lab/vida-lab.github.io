@@ -7,6 +7,14 @@ nav: true
 nav_order: 6
 
 gallery:
+  - title: "From scenic trails to karaoke nights — the team enjoyed a 10 km hike along the Southern Ridges followed by dinner and games."
+    date: 2026-06
+    description: >
+    images:
+      - southern_ridges_1.jpg
+      - southern_ridges_2.jpg
+      - southern_ridges_3.jpg
+
   - title: "Shaolun Ruan successfully graduated with a PhD degree from Singapore Management University (SMU). We warmly congratulate him on this important milestone and wish him all the best in his next chapter! 🎉🎉"
     date: 2026-01
     description: >
