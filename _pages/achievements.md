@@ -34,15 +34,6 @@ achievements:
     images:
       - 2025_VGTC_New_Researcher_Award.png
 
-  - title: "Best Paper Honorable Mention Award at IEEE Visualization Conference (VIS2025)"
-    date: "2025-11"
-    paper: "Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles"
-    description: "Congrats to Shaolun, Xiaolin, and the team!"
-    link: "https://arxiv.org/pdf/2507.10024"
-    images:
-      - vis25_best_honorable_mention_1.png
-      - vis25_best_honorable_mention_2.png
-
   - title: "2025 Google PhD Fellowship in Quantum Computing "
     date: "2025-09"
     paper:
