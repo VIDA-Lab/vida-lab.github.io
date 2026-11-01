@@ -159,6 +159,9 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-can-and-the-team-for-winning-the-best-paper-award-at-ieee-pacific-visualization-conference-pacificvis-2026-for-the-paper-from-static-to-interactive-authoring-interactive-visualizations-via-natural-language",
           title: '🏆 Congratulations to Can and the team for winning the Best Paper Award...',
           description: "",
+          section: "News",},{id: "news-we-are-delighted-to-share-that-our-team-has-three-accepted-papers-vizpilot-and-fox-at-ieee-vis-2026-and-evomaestro-at-uist-2026-congratulations-to-all-the-authors-and-team-members-on-this-wonderful-achievement",
+          title: 'We are delighted to share that our team has three accepted papers: VizPilot...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
