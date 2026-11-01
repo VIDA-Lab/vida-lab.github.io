@@ -23,29 +23,6 @@ profiles:
     next: # work place
     # content: about_member_test.md
 
-  - name: Can Liu
-    status: current # current or past
-    role: Postdoc
-    intro: Deep learning-driven data visualization and human-computer interaction
-    image: liucan.png
-    image_circular: false # crops the image to make it circular
-    website: http://liucan.me/
-    email: can.liu.1996@gmail.com
-    duration: 2024.12 - now
-    next: # add later
-    # content: about_member_test.md
-
-  - name: Shiyu Cheng
-    status: current
-    role: Visiting Postdoc
-    intro: Visual Analytics for Scientific Simulation and Knowledge Discovery
-    image: csy.jpg
-    image_circular: false
-    website: https://orangecsy.github.io
-    email: chengnico@outlook.com
-    duration: 2025.9 - now
-    next: Computer Network Information Center, Chinese Academy of Sciences
-
   - name: Manusha Karunathilaka
     status: current
     role: Ph.D. Candidate
@@ -59,7 +36,7 @@ profiles:
 
   - name: Xiaolin Wen
     status: current # current or past
-    role: Ph.D. Student
+    role: Ph.D. Candidate
     intro: Visualization and Human-Computer Interaction
     image: wenxiaolin.jpg
     image_circular: false # crops the image to make it circular
@@ -71,7 +48,7 @@ profiles:
 
   - name: Sritharan Niruthikka
     status: current
-    role: Ph.D. student
+    role: Ph.D. Student
     intro: Visualization and Human-Computer Interaction
     image: niru.jpg
     image_circular: false
@@ -82,7 +59,7 @@ profiles:
 
   - name: Gnanavel Nishaanthini
     status: current
-    role: Ph.D. student
+    role: Ph.D. Student
     intro: Visualization and Human-Computer Interaction
     image: nisha.jpg
     image_circular: false
@@ -93,7 +70,7 @@ profiles:
 
   - name: Tengteng Zhu
     status: current
-    role: Visiting Ph.D Student
+    role: Visiting Ph.D. Student
     intro: Visual Analytics for Robust Training and Fast Training in Distributed Machine Learning
     image: tengtengzhu.png
     image_circular: false
@@ -104,7 +81,7 @@ profiles:
 
   - name: Kai Yin
     status: current
-    role: Visiting Ph.D Student
+    role: Visiting Ph.D. Student
     intro: Interactive Data Visualization and Analytics for Intelligent Security
     image: yinkai.jpg
     image_circular: false
@@ -115,7 +92,7 @@ profiles:
 
   - name: Nanyi Wang
     status: current
-    role: Visiting Ph.D Student
+    role: Visiting Ph.D. Student
     intro: Human Robot Interaction, Human factor，Mutimodal Human Computer Interaction
     image: nanyi.jpg
     image_circular: false
@@ -172,16 +149,39 @@ profiles:
     next: # add later
     # content: about_member_test.md
 
+  - name: Can Liu
+    status: past
+    role: Postdoc
+    intro: Deep learning-driven data visualization and human-computer interaction
+    image: liucan.png
+    image_circular: false # crops the image to make it circular
+    website: http://liucan.me/
+    email: can.liu.1996@gmail.com
+    duration: 2024.12 - 2026.09
+    next: Assistant Professor at Central University of Finance and Economics
+    # content: about_member_test.md
+
+  - name: Shiyu Cheng
+    status: past
+    role: Visiting Postdoc
+    intro: Visual Analytics for Scientific Simulation and Knowledge Discovery
+    image: csy.jpg
+    image_circular: false
+    website: https://orangecsy.github.io
+    email: chengnico@outlook.com
+    duration: 2025.09 - 2026.09
+    next: Research Staff Member at Chinese Academy of Sciences
+
   - name: Shaolun Ruan
     status: past
-    role: Ph.D
+    role: Ph.D. Candidate
     intro: Data Visualization, Human-Computer Interaction
     image: shaolun_ruan.jpg
     image_circular: false
     website: https://shaolun-ruan.com/
     email: shaolun.ruan@monash.edu
     duration: 2022.01 - 2026.01
-    next:
+    next: Postdoc at University of Konstanz
 
   - name: Songheng Zhang
     status: past
@@ -192,7 +192,7 @@ profiles:
     website: https://alexanderzsh.github.io/
     email: shzhang.2021@phdcs.smu.edu.sg
     duration: 2021.08 - 2024.07
-    next:
+    next: Ph.D. Candidate at SMU
 
   - name: Kavinda Athapaththu
     status: past
@@ -203,7 +203,7 @@ profiles:
     website: https://kavinda.lk/
     email: kavinda.athapaththu@ntu.edu.sg # Email not provided in the source
     duration: 2024.01 - 2025.07 # Add duration of the position here if needed
-    next: # Add next position or status here if needed
+    next: Ph.D. Candidate at RMIT
 
   - name: Fengjie Wang
     status: past # current or past
@@ -214,7 +214,7 @@ profiles:
     website: https://ff0820.github.io/
     email: ff11060820@gmail.com
     duration: 2024.11 - 2025.07
-    next: HKUST
+    next: Ph.D. Student at HKUST
     # content: about_member_test.md
 
   - name: Ribo Yuan
@@ -259,7 +259,7 @@ profiles:
     website: https://yriccch.github.io/#/
     email: # add later
     duration: 2026.01 - 2026.04
-    next: # add later
+    next: Master Student at Hangzhou Dianzi University
 
   - name: Arsenii Galaida
     status: past
@@ -270,7 +270,7 @@ profiles:
     website: https://github.com/ArseniiGalaida
     email: galaida.arseniy@gmail.com
     duration: 2026.02 - 2026.04
-    next: # add later
+    next: ML & SW Engineer at NDA
 
   - name: Zubair Bashir
     status: past # current or past
@@ -281,7 +281,7 @@ profiles:
     website: https://www.linkedin.com/in/zubairb/
     email: n2402831f@e.ntu.edu.sg
     duration: 2025.07 - 2025.09
-    next:
+    next: Master Student at MBZUAI
     # content: about_member_test.md
 
   - name: Fengling Zheng
