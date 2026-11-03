@@ -101,6 +101,17 @@ profiles:
     duration: 2026.04 - now
     next: Beijing Institute of Technology
 
+  - name: Zhizheng Liu
+    status: current
+    role: Visiting Ph.D. Student
+    intro: Cultural Heritage, Dunhuang Murals, Human Computer Interaction
+    image: zhizhengliu.jpg
+    image_circular: false
+    website: https://vida-lab.org/team/
+    email: liuzhizheng122@gmail.com
+    duration: 2026.09 - now
+    next: Beijing Institute of Technology
+
   - name: Shiwei Chen
     status: current # current or past
     role: Master Student
